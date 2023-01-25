@@ -1,1 +1,2 @@
-# ctm-effects
+# Effects for Contao ThemeManager components
+

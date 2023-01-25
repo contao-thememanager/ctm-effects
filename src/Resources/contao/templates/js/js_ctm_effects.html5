@@ -1,0 +1,24 @@
+<?php
+$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/build/effects.js|static';
+?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        /*
+         * Below this comment you can manipulate the variables to adjust the behavior of animations and effects.
+         */
+
+        const inViewOffset = -50
+        const inViewThreshold = 0
+
+        /*
+        * Please do not make any changes below this comment if you do not know what you are doing.
+        */
+        inView.offset(inViewOffset)
+        inView.threshold(inViewThreshold)
+
+
+    })
+</script>
+
+
