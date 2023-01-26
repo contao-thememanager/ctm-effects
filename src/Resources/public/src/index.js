@@ -1,6 +1,6 @@
 import 'animate.css';
 
-const initAnimation = (inViewOffset = '50px') => {
+window.initAnimation = (inViewOffset = '50px') => {
     const animateStartClassName = 'animate__animated'
     const animatePrefix = 'animate__'
 
