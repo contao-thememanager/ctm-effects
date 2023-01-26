@@ -1,2 +1,2 @@
 import 'animate.css';
-import inView from "in-view";
+import enterView from 'enter-view';
