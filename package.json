@@ -19,8 +19,6 @@
         "webpack-cli": "^4.9.2"
     },
     "dependencies": {
-        "animate.css": "^4.1.1",
-        "enter-view": "^2.0.1",
-        "in-view": "^0.6.1"
+        "animate.css": "^4.1.1"
     }
 }
