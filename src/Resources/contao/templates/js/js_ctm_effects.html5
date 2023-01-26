@@ -1,25 +1,16 @@
 <?php
-$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/build/effects.js|static';
+$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/build/effects.js';
 $GLOBALS['TL_CSS'][] = 'bundles/contaothememanagereffects/styles/effects.css';
 ?>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        /*
-         * Below this comment you can manipulate the variables to adjust the behavior of animations and effects.
-         */
+        // Defines when the animation should be started. At 0px the animation is started as soon as the element comes
+        // into the visible area. At 50px the animation is already started when the element is 50px before coming into
+        // the visible area.
+        const inViewOffset = '50px'
 
-        const inViewOffset = -50
-        const inViewThreshold = 0
-
-        /*
-        * Please do not make any changes below this comment if you do not know what you are doing.
-        */
-        inView.offset(inViewOffset)
-        inView.threshold(inViewThreshold)
-
-
+        // Initialize the animations of all elements
+        initAnimation(inViewOffset)
     })
 </script>
-
-
