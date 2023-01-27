@@ -80,7 +80,7 @@
   animation-iteration-count: infinite;
 }
 .effect__circle {
-  animation-name: efc-up-down;
+  animation-name: efc-circle;
   animation-iteration-count: infinite;
 }
 
