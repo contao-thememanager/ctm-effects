@@ -4,7 +4,7 @@
   --effect-zoom-factor: 0.1;
 }
 
-.efc-anim-{
+.effect__{
 
   // Slide Up
   &slideUp{
@@ -49,8 +49,8 @@
       transform: translateX(#{var(--effect-offset)});
     }
   }
+}
 
-  &.effect__animated{
-    transition-duration: var(--effect-duration);
-  }
+.effect__animated{
+  transition-duration: var(--effect-duration);
 }
