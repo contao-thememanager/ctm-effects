@@ -76,7 +76,7 @@
 }
 .effect__rotateReverse {
   animation-name: efc-rotate;
-  animation-fill-mode: backwards;
+  animation-direction: reverse;
   animation-iteration-count: infinite;
 }
 .effect__circle {
