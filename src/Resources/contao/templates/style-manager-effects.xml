@@ -7,7 +7,7 @@
     <field title="desc">NULL</field>
     <field title="identifier">effect</field>
     <field title="groupAlias">Animation</field>
-    <field title="sorting">64</field>
+    <field title="sorting">2222</field>
     <children>
       <child alias="effect">
         <field title="id">905</field>
