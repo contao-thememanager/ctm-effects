@@ -1,6 +1,34 @@
 import 'animate.css';
 
-window.initAnimation = (opts) => {
+window.useAnimation = (inViewOffset = "50px") => {
+    initAnimation({
+        inView: {
+            offset: inViewOffset
+        }
+    })
+}
+
+window.useListAnimation = (inViewOffset = "50px") => {
+    initAnimation({
+        inView: {
+            offset: inViewOffset
+        },
+        animate: {
+            children: '.c_list',
+            selectors: {
+                prefix:   'animate__',
+                perform:  'animate__animated',
+                trigger:  'anim-list-tg-',
+                in:       'anim-list-in-',
+                out:      'anim-list-out-',
+                delay:    'anim-list-dly-',
+                duration: 'anim-list-dtn-'
+            }
+        }
+    })
+}
+
+const initAnimation = (opts) => {
     const defaultOptions = {
         inView: {
             root: null,
