@@ -28,6 +28,112 @@ window.useListAnimation = (inViewOffset = "50px") => {
     })
 }
 
+window.useEffect = () => {
+    initEffect()
+}
+
+const getClassNameByPrefix = (el, prefix) => {
+    if(!el.className.includes(prefix))
+        return null;
+
+    return el.className.split(prefix)[1].split(" ")[0]
+}
+
+const initEffect = (opts) => {
+    const defaultOptions = {
+        animate: {
+            selectors: {
+                prefix:   'effect__',
+                perform:  'effect__animated',
+                trigger:  'efc-tg-',
+                effect:   'efc-anim-',
+                duration: 'efc-dtn-',
+                factor:   'efc-fct-',
+                scope:    'efc-sc-'
+            }
+        }
+    }
+
+    const options = {...defaultOptions, ...opts}
+
+    const initEffectItem = (el, effectElement) => {
+        // Get duration and factor information
+        let animationDuration = getClassNameByPrefix(el, options.animate.selectors.duration)
+        let animationFactor = getClassNameByPrefix(el, options.animate.selectors.factor)
+
+        // Duration works fine with custom props
+        if(animationDuration)
+            effectElement.style.setProperty('--effect-duration', animationDuration.replace('-', '.') + 's')
+
+        if(animationFactor)
+            effectElement.style.setProperty('--effect-factor', animationFactor.replace('-', '.'))
+
+        // Get effect
+        const effectName = getClassNameByPrefix(el, options.animate.selectors.effect)
+
+        // Add effect css class to the effect element
+        effectElement.classList.add(options.animate.selectors.prefix + effectName)
+
+        switch (getClassNameByPrefix(el, options.animate.selectors.trigger))
+        {
+            case 'hover':
+                effectElement.addEventListener('mouseover', (e) => {
+                    effectElement.classList.add(options.animate.selectors.perform)
+                })
+
+                effectElement.addEventListener('mouseleave', (e) => {
+                    effectElement.classList.remove(options.animate.selectors.perform)
+                })
+                break
+        }
+    }
+
+    document.querySelectorAll('[class*="' + options.animate.selectors.trigger + '"]')?.forEach((el) => {
+        let effectElements;
+
+        switch (getClassNameByPrefix(el, options.animate.selectors.scope))
+        {
+            case 'parent':
+                effectElements = [el.closest('.inside')]
+                break
+
+            case 'inside':
+                if(el.querySelector('.c_list'))
+                {
+                    effectElements = el.querySelectorAll('.c_list .inside')
+                    break
+                }
+
+                effectElements = el.querySelectorAll('.inside')
+                break
+
+            case 'images':
+                effectElements = el.querySelectorAll('.image_container')
+                break
+
+            case 'icons':
+                effectElements = el.querySelectorAll('.c_icon')
+                break
+
+            case 'videos':
+                effectElements = el.querySelectorAll('.video_container')
+                break
+
+            case 'mixed':
+                effectElements = el.querySelectorAll('.image_container, .video_container, .c_icon')
+                break
+
+            default:
+                effectElements = [el]
+        }
+
+        for(effectElement of effectElements)
+        {
+            initEffectItem(el, effectElement)
+        }
+    })
+}
+
 const initAnimation = (opts) => {
     const defaultOptions = {
         inView: {
@@ -74,13 +180,6 @@ const initAnimation = (opts) => {
         };
 
         (new IntersectionObserver(callback, observerOptions)).observe(observerElement);
-    }
-
-    const getClassNameByPrefix = (el, prefix) => {
-        if(!el.className.includes(prefix))
-            return null;
-
-        return el.className.split(prefix)[1].split(" ")[0]
     }
 
     const initAnimationItem = (el, animationElement, index) => {

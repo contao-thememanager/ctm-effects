@@ -49,19 +49,19 @@
 
   // Zoom In
   &zoomIn{
-    transform: scale(0);
+    transform: scale(1);
 
     &.effect__animated{
-      transform: scale(calc(1 * (var(--effect-factor) / 2)));
+      transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10))));
     }
   }
 
   // Zoom Out
   &zoomOut{
-    transform: scale(0);
+    transform: scale(1);
 
     &.effect__animated{
-      transform: scale(calc(1 * (var(--effect-factor) / 2) * -1));
+      transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));
     }
   }
 }

@@ -10,7 +10,11 @@ $GLOBALS['TL_CSS'][] = 'bundles/contaothememanagereffects/styles/effects.css';
         // the visible area.
         const inViewOffset = '50px'
 
-        // Initialize the animations of all elements
-        initAnimation(inViewOffset)
+        // Initialize animations of component and list items
+        useAnimation(inViewOffset)
+        useListAnimation(inViewOffset)
+
+        // Initialize effects
+        useEffect()
     })
 </script>

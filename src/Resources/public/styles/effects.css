@@ -34,16 +34,16 @@
   transform: translateX(calc(var(--effect-offset) * var(--effect-factor)));
 }
 .effect__zoomIn {
-  transform: scale(0);
+  transform: scale(1);
 }
 .effect__zoomIn.effect__animated {
-  transform: scale(calc(1 * (var(--effect-factor) / 2)));
+  transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10))));
 }
 .effect__zoomOut {
-  transform: scale(0);
+  transform: scale(1);
 }
 .effect__zoomOut.effect__animated {
-  transform: scale(calc(1 * (var(--effect-factor) / 2) * -1));
+  transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));
 }
 
 /*# sourceMappingURL=effects.css.map */
