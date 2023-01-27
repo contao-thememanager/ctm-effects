@@ -12,6 +12,10 @@
 
 .effect__{
 
+  /**
+  * Hover Effects
+  */
+
   // Slide Up
   &slideUp{
     transform: translateY(0);
@@ -65,4 +69,30 @@
       transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));
     }
   }
+
+  /**
+  * Loop Effects
+  */
+
+  // Up Down
+  &upDown{
+    animation-name: efc-up-down;
+    animation-duration: var(--effect-duration);
+  }
+
+  // Circle
+  &circle{
+    animation-name: efc-up-down;
+    animation-duration: var(--effect-duration);
+  }
+}
+
+@keyframes efc-up-down {
+  from { transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+  to   { transform: translateY(calc(var(--effect-offset) * var(--effect-factor))); }
+}
+
+@keyframes efc-circle {
+  from { transform: rotate(0deg) translateX(var(--effect-offset)) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(var(--effect-offset)) rotate(-360deg); }
 }

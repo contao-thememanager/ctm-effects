@@ -10,6 +10,14 @@
   transition-duration: var(--effect-duration);
 }
 
+.effect__ {
+  /**
+  * Hover Effects
+  */
+  /**
+  * Loop Effects
+  */
+}
 .effect__slideUp {
   transform: translateY(0);
 }
@@ -45,6 +53,31 @@
 }
 .effect__zoomOut.effect__animated {
   transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));
+}
+.effect__upDown {
+  animation-name: efc-up-down;
+  animation-duration: var(--effect-duration);
+}
+.effect__circle {
+  animation-name: efc-up-down;
+  animation-duration: var(--effect-duration);
+}
+
+@keyframes efc-up-down {
+  from {
+    transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1));
+  }
+  to {
+    transform: translateY(calc(var(--effect-offset) * var(--effect-factor)));
+  }
+}
+@keyframes efc-circle {
+  from {
+    transform: rotate(0deg) translateX(var(--effect-offset)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--effect-offset)) rotate(-360deg);
+  }
 }
 
 /*# sourceMappingURL=effects.css.map */
