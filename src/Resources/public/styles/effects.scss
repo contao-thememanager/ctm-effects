@@ -12,7 +12,7 @@
     transition-property: transform;
 
     &.effect__animated{
-      transform: translateY(-#{var(--effect-offset)});
+      transform: translateY(calc(var(--effect-offset) * -1));
     }
   }
 
@@ -36,7 +36,7 @@
     transition-property: transform;
 
     &.effect__animated{
-      transform: translateX(-#{var(--effect-offset)});
+      transform: translateX(calc(var(--effect-offset) * -1));
     }
   }
 
@@ -46,7 +46,7 @@
     transition-property: transform;
 
     &.effect__animated{
-      transform: translateX(#{var(--effect-offset)});
+      transform: translateX(var(--effect-offset));
     }
   }
 }

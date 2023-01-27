@@ -9,7 +9,7 @@
   transition-property: transform;
 }
 .effect__slideUp.effect__animated {
-  transform: translateY(-var(--effect-offset));
+  transform: translateY(calc(var(--effect-offset) * -1));
 }
 .effect__.effect__animated {
   transition-duration: var(--effect-duration);
@@ -26,7 +26,7 @@
   transition-property: transform;
 }
 .effect__slideLeft.effect__animated {
-  transform: translateX(-var(--effect-offset));
+  transform: translateX(calc(var(--effect-offset) * -1));
 }
 .effect__slideRight {
   transform: translateX(0);
