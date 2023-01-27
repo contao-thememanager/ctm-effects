@@ -1,7 +1,12 @@
 :root{
   --effect-duration: .65s;
-  --effect-offset: 50px;
-  --effect-zoom-factor: 0.1;
+  --effect-offset: 10px;
+  --effect-factor: 1;
+}
+
+[class*="effect__"]{
+  transition-property: transform;
+  transition-duration: var(--effect-duration);
 }
 
 .effect__{
@@ -9,48 +14,54 @@
   // Slide Up
   &slideUp{
     transform: translateY(0);
-    transition-property: transform;
 
     &.effect__animated{
-      transform: translateY(calc(var(--effect-offset) * -1));
+      transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1));
     }
-  }
-
-  &.effect__animated{
-    transition-duration: var(--effect-duration);
   }
 
   // Slide Up
   &slideDown{
     transform: translateY(0);
-    transition-property: transform;
 
     &.effect__animated{
-      transform: translateY(var(--effect-offset));
+      transform: translateY(calc(var(--effect-offset) * var(--effect-factor)));
     }
   }
 
   // Slide Left
   &slideLeft{
     transform: translateX(0);
-    transition-property: transform;
 
     &.effect__animated{
-      transform: translateX(calc(var(--effect-offset) * -1));
+      transform: translateX(calc(var(--effect-offset) *  var(--effect-factor) * -1));
     }
   }
 
   // Slide Right
   &slideRight{
     transform: translateX(0);
-    transition-property: transform;
 
     &.effect__animated{
-      transform: translateX(var(--effect-offset));
+      transform: translateX(calc(var(--effect-offset) * var(--effect-factor)));
     }
   }
-}
 
-.effect__animated{
-  transition-duration: var(--effect-duration);
+  // Zoom In
+  &zoomIn{
+    transform: scale(0);
+
+    &.effect__animated{
+      transform: scale(calc(1 * (var(--effect-factor) / 2)));
+    }
+  }
+
+  // Zoom Out
+  &zoomOut{
+    transform: scale(0);
+
+    &.effect__animated{
+      transform: scale(calc(1 * (var(--effect-factor) / 2) * -1));
+    }
+  }
 }
