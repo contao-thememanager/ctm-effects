@@ -127,7 +127,7 @@ const initEffect = (opts) => {
                 effectElements = [el]
         }
 
-        for(effectElement of effectElements)
+        for(const effectElement of effectElements)
         {
             initEffectItem(el, effectElement)
         }
