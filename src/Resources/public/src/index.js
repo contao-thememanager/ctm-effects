@@ -49,6 +49,7 @@ const initEffect = (opts) => {
                 effect:   'efc-anim-',
                 duration: 'efc-dtn-',
                 factor:   'efc-fct-',
+                easing:   'efc-eas',
                 scope:    'efc-sc-'
             }
         }
@@ -57,9 +58,10 @@ const initEffect = (opts) => {
     const options = {...defaultOptions, ...opts}
 
     const initEffectItem = (el, effectElement) => {
-        // Get duration and factor information
+        // Get duration, easing and factor information
         let animationDuration = getClassNameByPrefix(el, options.animate.selectors.duration)
         let animationFactor = getClassNameByPrefix(el, options.animate.selectors.factor)
+        let animationEasing = getClassNameByPrefix(el, options.animate.selectors.easing)
 
         // Duration works fine with custom props
         if(animationDuration)
@@ -67,6 +69,9 @@ const initEffect = (opts) => {
 
         if(animationFactor)
             effectElement.style.setProperty('--effect-factor', animationFactor.replace('-', '.'))
+
+        if(animationEasing)
+            effectElement.style.setProperty('--effect-easing', animationEasing)
 
         // Get effect
         const effectName = getClassNameByPrefix(el, options.animate.selectors.effect)

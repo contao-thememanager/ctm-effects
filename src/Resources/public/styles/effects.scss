@@ -3,11 +3,16 @@
   --effect-offset: 10px;
   --effect-scale: 1;
   --effect-factor: 1;
+  --effect-easing: linear;
 }
 
 [class*="effect__"]{
   transition-property: transform;
+  transition-timing-function: var(--effect-easing);
   transition-duration: var(--effect-duration);
+
+  animation-duration: var(--effect-duration);
+  animation-timing-function: var(--effect-easing);
 }
 
 .effect__{
@@ -77,22 +82,65 @@
   // Up Down
   &upDown{
     animation-name: efc-up-down;
-    animation-duration: var(--effect-duration);
+    animation-iteration-count: infinite;
+  }
+
+  // Left Right
+  &leftRight{
+    animation-name: efc-left-right;
+    animation-iteration-count: infinite;
+  }
+
+  // In Out
+  &inOut{
+    animation-name: efc-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  // Rotate
+  &rotate{
+    animation-name: efc-rotate;
+    animation-iteration-count: infinite;
+  }
+
+  // Rotate Reverse
+  &rotateReverse{
+    animation-name: efc-rotate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
   }
 
   // Circle
   &circle{
     animation-name: efc-up-down;
-    animation-duration: var(--effect-duration);
+    animation-iteration-count: infinite;
   }
 }
 
 @keyframes efc-up-down {
-  from { transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
-  to   { transform: translateY(calc(var(--effect-offset) * var(--effect-factor))); }
+  0%  { transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+  50% { transform: translateY(calc(var(--effect-offset) * var(--effect-factor))); }
+  100%{ transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+}
+
+@keyframes efc-left-right {
+  0%  { transform: translateX(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+  50% { transform: translateX(calc(var(--effect-offset) * var(--effect-factor))); }
+  100%{ transform: translateX(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+}
+
+@keyframes efc-in-out {
+  0%  { transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)))); }
+  50% { transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1)); }
+  100%{ transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)))); }
 }
 
 @keyframes efc-circle {
   from { transform: rotate(0deg) translateX(var(--effect-offset)) rotate(0deg); }
   to   { transform: rotate(360deg) translateX(var(--effect-offset)) rotate(-360deg); }
+}
+
+@keyframes efc-rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }
