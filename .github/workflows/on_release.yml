@@ -18,7 +18,7 @@ jobs:
           command: config version ${{  github.ref_name }}
           
       - name: Zip Repo
-        run: zip -r ${{ github.event.repository.name }}_${{  github.ref_name }}.zip ./ -x *.github/* *.git*
+        run: zip -r ${{ github.event.repository.name }}_${{  github.ref_name }}.zip ./ -x *.github/* *.git* DOCKER_ENV docker_tag output.log
             
       - name: Display structure
         run: ls -R
