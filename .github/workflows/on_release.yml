@@ -39,3 +39,6 @@ jobs:
           remote_dir: "${{ secrets.PATH }}"
           delete: "false"
           local_dir: "${{ github.workspace }}/temp"
+          
+      - name: Call Webhock
+        run: curl -X POST -H "Content-Type:application/json" -d '{"${{  github.ref_name }}":"${{ github.event.repository.name }}_${{  github.ref_name }}.zip"}' https://p629619.mittwaldserver.info/api/github/product/register
