@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/Resources/public/src/index.js',
+    entry: './public/src/index.js',
     output: {
-        path: path.resolve(__dirname, 'src/Resources/public/build'),
+        path: path.resolve(__dirname, '/public/build'),
         filename: 'effects.js',
     },
     module: {

@@ -27,7 +27,7 @@ class Plugin implements BundlePluginInterface
         return [
             BundleConfig::create(ContaoThemeManagerEffects::class)
                 ->setLoadAfter([ContaoCoreBundle::class, ContaoThemeManagerCore::class])
-                ->setReplace(['ctm-recommendation']),
+                ->setReplace(['ctm-effects']),
         ];
     }
 }
