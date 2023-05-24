@@ -19,6 +19,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationIn">
         <field title="pid">20010</field>
@@ -31,6 +33,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationOut">
         <field title="pid">20010</field>
@@ -43,6 +47,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationDelay">
         <field title="pid">20010</field>
@@ -55,6 +61,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationDuration">
         <field title="pid">20010</field>
@@ -67,6 +75,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
     </children>
   </archive>
@@ -88,6 +98,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationListIn">
         <field title="pid">20020</field>
@@ -100,6 +112,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationListOut">
         <field title="pid">20020</field>
@@ -112,6 +126,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationListDelay">
         <field title="pid">20020</field>
@@ -123,6 +139,8 @@
         <field title="blankOption">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:12:{i:0;s:4:"list";i:1;s:14:"rsce_icon_text";i:2;s:15:"rsce_image_text";i:3;s:15:"rsce_offer_list";i:4;s:14:"rsce_team_list";i:5;s:19:"rsce_hyperlink_list";i:6;s:19:"rsce_icon_text_list";i:7;s:15:"rsce_image_list";i:8;s:20:"rsce_image_text_list";i:9;s:14:"rsce_text_list";i:10;s:23:"rsce_counter_image_list";i:11;s:31:"rsce_my_counter_image_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="animationListDuration">
         <field title="pid">20020</field>
@@ -135,6 +153,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
     </children>
   </archive>
@@ -156,6 +176,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:39:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="effectDuration">
         <field title="pid">20030</field>
@@ -168,6 +190,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="effectEasing">
         <field title="pid">20030</field>
@@ -180,6 +204,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="effectFactor">
         <field title="pid">20030</field>
@@ -192,6 +218,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
       <child alias="scope">
         <field title="pid">20030</field>
@@ -204,6 +232,8 @@
         <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:39:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:17:"wrapperStartBoxed";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
     </children>
   </archive>
