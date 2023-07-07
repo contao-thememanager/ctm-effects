@@ -1,6 +1,6 @@
 {
   "name": "contao-thememanager/ctm-effects",
-  "type": "contao-bundle",
+  "type": "symfony-bundle",
   "description": "Brings animations and effects to the ThemeManager components",
   "keywords": [
     "effects",
