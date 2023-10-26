@@ -1,20 +1,12 @@
 <?php
-$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/assets/dist/effects.js|static';
-$GLOBALS['TL_CSS'][] = 'bundles/contaothememanagereffects/assets/dist/effects.css|static';
+  $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/assets/dist/effects.js|static';
 ?>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // Defines when the animation should be started. At 0px the animation is started as soon as the element comes
-        // into the visible area. At 50px the animation is already started when the element is 50px before coming into
-        // the visible area.
-        const inViewOffset = '50px'
-
-        // Initialize animations of component and list items
-        useAnimation(inViewOffset)
-        useListAnimation(inViewOffset)
-
-        // Initialize effects
-        useEffect()
-    })
+  window.addEventListener('load', () => {
+    const inViewOffset = '50px'
+    useAnimation(inViewOffset)
+    useListAnimation(inViewOffset)
+    useEffect()
+  })
 </script>

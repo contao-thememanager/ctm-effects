@@ -2,12 +2,6 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Contao ThemeManager Effects.
- *
- * (c) https://www.oveleon.de/
- */
-
 namespace ContaoThemeManager\Effects\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
@@ -26,7 +20,10 @@ class Plugin implements BundlePluginInterface
     {
         return [
             BundleConfig::create(ContaoThemeManagerEffects::class)
-                ->setLoadAfter([ContaoCoreBundle::class, ContaoThemeManagerCore::class])
+                ->setLoadAfter([
+                    ContaoCoreBundle::class,
+                    ContaoThemeManagerCore::class
+                ])
                 ->setReplace(['ctm-effects']),
         ];
     }
