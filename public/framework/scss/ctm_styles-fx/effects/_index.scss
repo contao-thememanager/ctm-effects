@@ -1,12 +1,4 @@
-:root{
-  --effect-duration: .65s;
-  --effect-offset: 10px;
-  --effect-scale: 1;
-  --effect-factor: 1;
-  --effect-easing: linear;
-}
-
-[class*="effect__"]{
+[class*="effect__"] {
   transition-property: transform;
   transition-timing-function: var(--effect-easing);
   transition-duration: var(--effect-duration);
@@ -15,44 +7,44 @@
   animation-timing-function: var(--effect-easing);
 }
 
-.effect__{
+.effect__ {
 
   /**
   * Hover Effects
   */
 
   // Slide Up
-  &slideUp{
+  &slideUp {
     transform: translateY(0);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1));
     }
   }
 
   // Slide Up
-  &slideDown{
+  &slideDown {
     transform: translateY(0);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: translateY(calc(var(--effect-offset) * var(--effect-factor)));
     }
   }
 
   // Slide Left
-  &slideLeft{
+  &slideLeft {
     transform: translateX(0);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: translateX(calc(var(--effect-offset) *  var(--effect-factor) * -1));
     }
   }
 
   // Slide Right
-  &slideRight{
+  &slideRight {
     transform: translateX(0);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: translateX(calc(var(--effect-offset) * var(--effect-factor)));
     }
   }
@@ -61,16 +53,16 @@
   &zoomIn{
     transform: scale(1);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10))));
     }
   }
 
   // Zoom Out
-  &zoomOut{
+  &zoomOut {
     transform: scale(1);
 
-    &.effect__animated{
+    &.effect__animated {
       transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));
     }
   }
@@ -80,38 +72,38 @@
   */
 
   // Up Down
-  &upDown{
+  &upDown {
     animation-name: efc-up-down;
     animation-iteration-count: infinite;
   }
 
   // Left Right
-  &leftRight{
+  &leftRight {
     animation-name: efc-left-right;
     animation-iteration-count: infinite;
   }
 
   // In Out
-  &inOut{
+  &inOut {
     animation-name: efc-in-out;
     animation-iteration-count: infinite;
   }
 
   // Rotate
-  &rotate{
+  &rotate {
     animation-name: efc-rotate;
     animation-iteration-count: infinite;
   }
 
   // Rotate Reverse
-  &rotateReverse{
+  &rotateReverse {
     animation-name: efc-rotate;
     animation-direction: reverse;
     animation-iteration-count: infinite;
   }
 
   // Circle
-  &circle{
+  &circle {
     animation-name: efc-circle;
     animation-iteration-count: infinite;
   }
