@@ -1,6 +1,6 @@
 <?php
 $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanagereffects/assets/dist/effects.js|static';
-$GLOBALS['TL_CSS'][] = 'bundles/contaothememanagereffects/styles/effects.css|static';
+$GLOBALS['TL_CSS'][] = 'bundles/contaothememanagereffects/assets/dist/effects.css|static';
 ?>
 
 <script>
