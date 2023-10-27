@@ -1,5 +1,9 @@
+$-anim-prefix:   'animate__';
+$-effect-prefix: 'effect__';
+
 // Mixins
-@import "./ctm_utils-fx";
+@import "ctm_utils-fx";
 
 // Styles
 @import "ctm_base-fx";
+@import "ctm_styles-fx";
