@@ -1,0 +1,12 @@
+$anim-zoomin: (
+  'zoomIn': (
+    0:    ( transform: scale3d(0.3, 0.3, 0.3), opacity: 0 ),
+    50:   ( opacity: 1 ),
+  )
+);
+
+@each $name, $map in $anim-zoomin {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}

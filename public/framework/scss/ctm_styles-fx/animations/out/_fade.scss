@@ -1,0 +1,51 @@
+$anim-fadeout: (
+  'fadeOut': (
+    100:    ( opacity:0 ),
+  ),
+  'fadeOutDown': (
+    100:    ( opacity:0, transform: translate3d(0, 100%, 0) ),
+  ),
+  'fadeOutDownBig': (
+    100:    ( opacity:0, transform: translate3d(0, 2000px, 0) ),
+  ),
+  'fadeOutLeft': (
+    100:    ( opacity:0, transform: translate3d(-100%, 0, 0) ),
+  ),
+  'fadeOutLeftBig': (
+    100:    ( opacity:0, transform: translate3d(-2000px, 0, 0) ),
+  ),
+  'fadeOutRight': (
+    100:    ( opacity:0, transform: translate3d(100%, 0, 0) ),
+  ),
+  'fadeOutRightBig': (
+    100:    ( opacity:0, transform: translate3d(2000px, 0, 0) ),
+  ),
+  'fadeOutUp': (
+    100:    ( opacity:0, transform: translate3d(0, -100%, 0) ),
+  ),
+  'fadeOutUpBig': (
+    100:    ( opacity:0, transform: translate3d(0, -2000px, 0) ),
+  ),
+  'fadeOutTopLeft': (
+    100:    ( opacity:0, transform: translate3d(-100%, -100%, 0) ),
+  ),
+  'fadeOutTopRight': (
+    100:    ( opacity:0, transform: translate3d(100%, -100%, 0) ),
+  ),
+  'fadeOutBottomLeft': (
+    100:    ( opacity:0, transform: translate3d(-100%, 100%, 0) ),
+  ),
+  'fadeOutBottomRight': (
+    100:    ( opacity:0, transform: translate3d(100%, 100%, 0) ),
+  )
+);
+
+[class*="#{$-anim-prefix}fadeOut"] {
+  opacity: 1;
+}
+
+@each $name, $map in $anim-fadeout {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}
