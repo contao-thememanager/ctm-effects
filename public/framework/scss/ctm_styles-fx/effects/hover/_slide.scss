@@ -1,0 +1,26 @@
+.#{$-effect-prefix} {
+
+  &slideUp {
+    transform: translateY(0);
+
+    &.#{$-effect-prefix}animated { transform: translateY(calc(var(--effect-offset) * var(--effect-factor) * -1)); }
+  }
+
+  &slideDown {
+    transform: translateY(0);
+
+    &.#{$-effect-prefix}animated {transform: translateY(calc(var(--effect-offset) * var(--effect-factor)));}
+  }
+
+  &slideLeft {
+    transform: translateX(0);
+
+    &.#{$-effect-prefix}animated {transform: translateX(calc(var(--effect-offset) *  var(--effect-factor) * -1));}
+  }
+
+  &slideRight {
+    transform: translateX(0);
+
+    &.#{$-effect-prefix}animated {transform: translateX(calc(var(--effect-offset) * var(--effect-factor)));}
+  }
+}

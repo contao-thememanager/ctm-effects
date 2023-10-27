@@ -1,0 +1,14 @@
+.#{$-effect-prefix} {
+
+  &zoomIn {
+    transform: scale(1);
+
+    &.#{$-effect-prefix}animated {transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10))));}
+  }
+
+  &zoomOut {
+    transform: scale(1);
+
+    &.#{$-effect-prefix}animated {transform: scale(calc(var(--effect-scale) + (var(--effect-scale) * (var(--effect-factor) / 10)) * -1));}
+  }
+}
