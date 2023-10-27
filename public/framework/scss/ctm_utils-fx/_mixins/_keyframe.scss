@@ -1,0 +1,40 @@
+@mixin ctm-keyframes($identifier, $effects...) {
+  $object: process-arguments($effects...);
+  $includes: ();
+  $excludes: ();
+
+  @each $percentage, $props in $object {
+    $ident: keyframe-percentage($percentage);
+
+    @if ($ident != 'props') {
+      $includes: map-merge($includes, $object);
+    }
+    @else {
+      $excludes: map-merge($excludes, $props)
+    }
+  }
+
+  @if length($includes) != 0 {
+
+    @keyframes #{$identifier} {
+
+      @each $percentage, $props in $includes {
+        $ident: keyframe-percentage($percentage);
+
+        @if ($ident != 'props') {
+          #{keyframe-percentage($percentage)} {
+            @each $prop, $value in $props {
+              #{$prop}: #{$value};
+            }
+          }
+        }
+      }
+    }
+
+    animation-name: unquote($identifier);
+  }
+
+  @each $prop, $value in $excludes {
+    #{$prop}: #{$value};
+  }
+}

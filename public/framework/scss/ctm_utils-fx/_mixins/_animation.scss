@@ -1,0 +1,3 @@
+@mixin ctm-animation($name, $effects...) {
+  @include ctm-keyframes($name, $effects...);
+}
