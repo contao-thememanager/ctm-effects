@@ -1,5 +1,3 @@
-import 'animate.css';
-
 window.useAnimation = (inViewOffset = "50px") => {
     initAnimation({
         inView: {
