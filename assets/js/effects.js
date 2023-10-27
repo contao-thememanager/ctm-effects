@@ -198,7 +198,7 @@ const initAnimation = (opts) => {
             animationElement.style.setProperty('--animate-duration', animationDuration.replace('-', '.') + 's')
 
         // Instead of overriding the custom-property as we did with the duration, we have to take a different way
-        // for now because of a bug. (https://github.com/animate-css/animate.css/issues/1544)
+        // for now because of a bug. (https://github.com/animate-css/animate.css/issues/1544) - 1552
         if(animationDelay){
             animationDelay = parseFloat(animationDelay.replace('-', '.'))
 
