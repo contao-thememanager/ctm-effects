@@ -6,29 +6,9 @@ window.useAnimation = (inViewOffset = "50px") => {
     })
 }
 
-window.useListAnimation = (inViewOffset = "50px") => {
-    initAnimation({
-        inView: {
-            offset: inViewOffset
-        },
-        animate: {
-            children: '.c_list',
-            selectors: {
-                prefix:   'animate__',
-                perform:  'animate__animated',
-                trigger:  'anim-list-tg-',
-                in:       'anim-list-in-',
-                out:      'anim-list-out-',
-                delay:    'anim-list-dly-',
-                duration: 'anim-list-dtn-'
-            }
-        }
-    })
-}
-
-window.useEffect = () => {
+/*window.useEffect = () => {
     initEffect()
-}
+}*/
 
 const getClassNameByPrefix = (el, prefix) => {
     if(!el.className.includes(prefix))
@@ -37,7 +17,7 @@ const getClassNameByPrefix = (el, prefix) => {
     return el.className.split(prefix)[1].split(" ")[0]
 }
 
-const initEffect = (opts) => {
+/*const initEffect = (opts) => {
     const defaultOptions = {
         animate: {
             selectors: {
@@ -135,7 +115,7 @@ const initEffect = (opts) => {
             initEffectItem(el, effectElement)
         }
     })
-}
+}*/
 
 const initAnimation = (opts) => {
     const defaultOptions = {
@@ -145,15 +125,46 @@ const initAnimation = (opts) => {
             threshold: 0.5
         },
         animate: {
-            children: null,
             selectors: {
-                prefix:   'animate__',
-                perform:  'animate__animated',
-                trigger:  'anim-tg-',
-                in:       'anim-in-',
-                out:      'anim-out-',
-                delay:    'anim-dly-',
-                duration: 'anim-dtn-'
+                prefix:           'animate__',
+                suffix: {
+                    in:           '-in-',
+                    out:          '-out-'
+                },
+                perform:          'animate__animated',
+                list:             'c_list',
+                scope: {
+                    element: {
+                        prefix:   'fx_anim',
+                        selector: '.fx_anim',
+                        delay:    'anim-dly-',
+                        duration: 'anim-dtn-'
+                    },
+                    text: {
+                        prefix:   'fx_txt_anim',
+                        selector: '.c_text',
+                        delay:    'txt_anim-dly-',
+                        duration: 'txt_anim-dtn-'
+                    },
+                    image: {
+                        prefix:   'fx_img_anim',
+                        selector: '.image_container',
+                        delay:    'img_anim-dly-',
+                        duration: 'img_anim-dtn-'
+                    },
+                    icon: {
+                        prefix:   'fx_ico_anim',
+                        selector: '.c_icon',
+                        delay:    'ico_anim-dly-',
+                        duration: 'ico_anim-dtn-'
+                    },
+                    link: {
+                        prefix:   'fx_lnk_anim',
+                        selector: '.c_link',
+                        delay:    'lnk_anim-dly-',
+                        duration: 'lnk_anim-dtn-'
+                    }
+                }
             }
         }
     }
@@ -161,7 +172,7 @@ const initAnimation = (opts) => {
     const options = {...defaultOptions, ...opts}
 
     const animate = (el, animationName, removeFromClasses) => {
-        if(removeFromClasses)
+        if (removeFromClasses)
             el.classList.remove(options.animate.selectors.perform, options.animate.selectors.prefix + removeFromClasses)
 
         el.classList.add(options.animate.selectors.perform, options.animate.selectors.prefix + animationName)
@@ -185,61 +196,51 @@ const initAnimation = (opts) => {
         (new IntersectionObserver(callback, observerOptions)).observe(observerElement);
     }
 
-    const initAnimationItem = (el, animationElement, index) => {
-        // Get trigger information
-        let animationTrigger = getClassNameByPrefix(el, options.animate.selectors.trigger)
+    const initAnimationItem = (el, animationElement, index, typeOptions) => {
 
         // Get delay and duration information
-        let animationDelay = getClassNameByPrefix(el, options.animate.selectors.delay)
-        let animationDuration = getClassNameByPrefix(el, options.animate.selectors.duration)
+        let animationDelay = getClassNameByPrefix(el, typeOptions.delay)
+        let animationDuration = getClassNameByPrefix(el, typeOptions.duration)
 
-        // Duration works fine with custom props
-        if(animationDuration)
+        if (animationDuration)
             animationElement.style.setProperty('--animate-duration', animationDuration.replace('-', '.') + 's')
 
-        // Instead of overriding the custom-property as we did with the duration, we have to take a different way
-        // for now because of a bug. (https://github.com/animate-css/animate.css/issues/1544) - 1552
-        if(animationDelay){
-            animationDelay = parseFloat(animationDelay.replace('-', '.'))
-
-            if(options.animate.children) {
-                animationDelay = animationDelay * index
-            }
-
-            animationElement.style.setProperty('--animate-delay', animationDelay + 's')
-            animationElement.classList.add('animate__delay-1s')
-        }
+        if (animationDelay)
+            animationElement.style.setProperty('--animate-delay', parseFloat(animationDelay.replace('-', '.')) * (index + 1) + 's')
 
         // Get animations
-        const inAnimationName = getClassNameByPrefix(el, options.animate.selectors.in)
-        const outAnimationName = getClassNameByPrefix(el, options.animate.selectors.out)
+        const inAnimationName = getClassNameByPrefix(el, typeOptions.prefix + options.animate.selectors.suffix.in)
+        const outAnimationName = getClassNameByPrefix(el, typeOptions.prefix + options.animate.selectors.suffix.out)
 
-        switch (animationTrigger)
-        {
-            case 'inview':
-                const inAnimation = inAnimationName ?
-                    () => { animate(animationElement, inAnimationName, outAnimationName) } :
-                    () => { }
+        const inAnimation = inAnimationName ? () => { animate(animationElement, inAnimationName, outAnimationName) } : () => { }
+        const outAnimation = outAnimationName ? () => { animate(animationElement, outAnimationName, inAnimationName) } : () => { }
 
-                const outAnimation = outAnimationName ?
-                    () => { animate(animationElement, outAnimationName, inAnimationName) } :
-                    () => { }
-
-                animateInView(el, inAnimation, outAnimation)
-                break
-
-            default:
-                animate(animationElement, inAnimationName, outAnimationName)
-        }
+        animateInView(el, inAnimation, outAnimation)
     }
 
-    document.querySelectorAll('[class*="' + options.animate.selectors.trigger + '"]')?.forEach((el) => {
-        if(options.animate.children){
-            el.querySelectorAll(options.animate.children + ' > *').forEach((animationElement, index) => {
-                initAnimationItem(el, animationElement, index)
-            })
-        }else{
-            initAnimationItem(el, el.querySelector(':scope > .inside') ? el.querySelector(':scope > .inside') : el, 0)
-        }
-    })
+    for (let type in options.animate.selectors.scope)
+    {
+        const typeOptions = options.animate.selectors.scope[type]
+
+        document.querySelectorAll('[class*="' + typeOptions.prefix + '"]')?.forEach((el) => {
+
+            switch (type)
+            {
+                case 'element':
+                    if (!el.classList.contains(options.animate.selectors.list))
+                        return initAnimationItem(el, el, 0, typeOptions)
+
+                    // List
+                    Array.from(el.children)?.forEach((animationElement, index) => {
+                        initAnimationItem(el, animationElement, index, typeOptions)
+                    })
+                    break;
+
+                default:
+                    Array.from(el.querySelectorAll(typeOptions.selector))?.forEach((animationElement, index) => {
+                        initAnimationItem(el, animationElement, index, typeOptions)
+                    })
+            }
+        })
+    }
 }
