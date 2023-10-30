@@ -1,9 +1,8 @@
-.#{$-anim-prefix}animated {
-  --animate-duration:1s;
-  --animate-delay:0s;
-  --animate-repeat:1;
-  animation-duration: var(--animate-duration);
-  animation-delay: var(--animate-delay);
+.#{$-anim-prefix}a {
+  --fx-t:1s;
+  --fx-d:0s;
+  animation-duration: var(--fx-t);
+  animation-delay: var(--fx-d);
   animation-fill-mode: both;
 
   @media print, (prefers-reduced-motion: reduce) {

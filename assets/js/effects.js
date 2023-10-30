@@ -126,15 +126,15 @@ const initAnimation = (opts) => {
         },
         a: {                                        // animate
             s: {                                    // selectors
-                p:          'animate__',            // prefix
+                p:          'fxa_',                 // prefix
                 s: {                                // suffix
                     i:      '-in-',                 // in
                     o:      '-out-'                 // out
                 },
-                x:          'animate__animated',    // perform
+                x:          'fxa_a',                // animated
                 l:          'c_list',               // list class
                 t: {                                // scope
-                    element: {                      // element
+                    el: {                           // element
                         p:  'fx_anim',              // prefix
                         s:  '.fx_anim',             // selector
                         d:  'anim-dly-',            // delay
@@ -171,11 +171,11 @@ const initAnimation = (opts) => {
 
     const options = {...defaultOptions, ...opts}
 
-    const animate = (el, animationName, removeFromClasses) => {
+    const animate = (el, name, removeFromClasses) => {
         if (removeFromClasses)
             el.classList.remove(options.a.s.x, options.a.s.p + removeFromClasses)
 
-        el.classList.add(options.a.s.x, options.a.s.p + animationName)
+        el.classList.add(options.a.s.x, options.a.s.p + name)
     }
 
     const animateInView = (observerElement, enter, exit) => {
@@ -204,22 +204,22 @@ const initAnimation = (opts) => {
         ].forEach(o => el.classList.contains(o) && el.classList.remove(o))
     }
 
-    const initAnimationItem = (el, animationElement, index, typeOptions) => {
+    const initAnimationItem = (el, item, index, typeOptions) => {
         // Get delay and duration information
         const animationDuration = getFxValueByPrefix(el, typeOptions.t)
         if (animationDuration)
-            animationElement.style.setProperty('--animate-duration', animationDuration.replace('-', '.') + 's')
+            item.style.setProperty('--fx-t', animationDuration.replace('-', '.') + 's')
 
         const animationDelay = getFxValueByPrefix(el, typeOptions.d)
         if (animationDelay)
-            animationElement.style.setProperty('--animate-delay', (parseFloat(animationDelay.replace('-', '.')) * (index + 1)).toFixed(3) + 's')
+            item.style.setProperty('--fx-d', (parseFloat(animationDelay.replace('-', '.')) * (index + 1)).toFixed(3) + 's')
 
         // Get animations
         const inAnimationName = getFxValueByPrefix(el, typeOptions.p + options.a.s.s.i)
         const outAnimationName = getFxValueByPrefix(el, typeOptions.p + options.a.s.s.o)
 
-        const inAnimation = inAnimationName ? () => animate(animationElement, inAnimationName, outAnimationName) : () => {}
-        const outAnimation = outAnimationName ? () => animate(animationElement, outAnimationName, inAnimationName) : () => {}
+        const inAnimation = inAnimationName ? () => animate(item, inAnimationName, outAnimationName) : () => {}
+        const outAnimation = outAnimationName ? () => animate(item, outAnimationName, inAnimationName) : () => {}
 
         animateInView(el, inAnimation, outAnimation)
     }
@@ -232,16 +232,16 @@ const initAnimation = (opts) => {
             const initItem = (element, index) => initAnimationItem(el, element, index, typeOptions)
 
             switch (type) {
-                case 'element':
+                case 'el':
                     if (!el.classList.contains(options.a.s.l)) {
                         initItem(el, 0)
                     } else {
-                        Array.from(el.children)?.forEach((animationElement, index) => initItem(animationElement, index))
+                        Array.from(el.children)?.forEach((item, index) => initItem(item, index))
                     }
                     break
 
                 default:
-                    Array.from(el.querySelectorAll(typeOptions.s))?.forEach((animationElement, index) => initItem(animationElement, index))
+                    Array.from(el.querySelectorAll(typeOptions.s))?.forEach((item, index) => initItem(item, index))
             }
 
             removeInitClass(el, typeOptions)
