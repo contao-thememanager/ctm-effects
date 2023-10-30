@@ -1,4 +1,7 @@
 .#{$-anim-prefix}animated {
+  --animate-duration:1s;
+  --animate-delay:0s;
+  --animate-repeat:1;
   animation-duration: var(--animate-duration);
   animation-delay: var(--animate-delay);
   animation-fill-mode: both;

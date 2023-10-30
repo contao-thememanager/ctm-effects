@@ -5,8 +5,7 @@
 
 <script>
   window.addEventListener('load', () => {
-    const inViewOffset = '50px'
-    useAnimation(inViewOffset)
+    useAnimation()
     //useEffect()
   })
 </script>
