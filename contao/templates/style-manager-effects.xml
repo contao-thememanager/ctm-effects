@@ -1,239 +1,642 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archives>
 
-  <archive identifier="animation">
-    <field title="id">20010</field>
-    <field title="title">Animation</field>
-    <field title="identifier">animation</field>
-    <field title="groupAlias">Animation</field>
-    <field title="sorting">20100</field>
+  <archive identifier="gHeadline">
+    <field title="identifier">gHeadline</field>
     <children>
-      <child alias="animationTrigger">
-        <field title="pid">20010</field>
-        <field title="sorting">100</field>
-        <field title="alias">animationTrigger</field>
-        <field title="title">Trigger</field>
-        <field title="description">Defines when the animation or effect should be triggered.</field>
-        <field title="cssClasses">a:2:{i:0;a:2:{s:3:"key";s:19:"anim-tg-immediately";s:5:"value";s:11:"Immediately";}i:1;a:2:{s:3:"key";s:14:"anim-tg-inview";s:5:"value";s:8:"Viewport";}}</field>
-        <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
-        <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
-        <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
-      </child>
       <child alias="animationIn">
-        <field title="pid">20010</field>
-        <field title="sorting">200</field>
+        <field title="pid">10</field>
+        <field title="sorting">10100</field>
         <field title="alias">animationIn</field>
         <field title="title">Animation &amp;#40;IN&amp;#41;</field>
-        <field title="description">Defines the type of animation.</field>
-        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:14:"anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:18:"anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:21:"anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:18:"anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:21:"anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:19:"anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:22:"anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:16:"anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:19:"anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:21:"anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:22:"anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:24:"anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:25:"anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:16:"anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:20:"anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:20:"anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:21:"anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:18:"anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:15:"anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:15:"anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:14:"anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:22:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:9:"rsce_text";i:6;s:9:"rsce_icon";i:7;s:19:"rsce_hyperlink_list";i:8;s:19:"rsce_icon_text_list";i:9;s:15:"rsce_image_list";i:10;s:20:"rsce_image_text_list";i:11;s:14:"rsce_text_list";i:12;s:11:"sliderStart";i:13;s:9:"hyperlink";i:14;s:5:"image";i:15;s:7:"gallery";i:16;s:6:"player";i:17;s:7:"youtube";i:18;s:5:"vimeo";i:19;s:8:"download";i:20;s:9:"downloads";i:21;s:8:"comments";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
       <child alias="animationOut">
-        <field title="pid">20010</field>
-        <field title="sorting">300</field>
+        <field title="pid">10</field>
+        <field title="sorting">10200</field>
         <field title="alias">animationOut</field>
         <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
-        <field title="description">Defines the type of animation. Works exclusively with the &amp;#34;viewport&amp;#34; trigger.</field>
-        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:16:"anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:20:"anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:23:"anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:20:"anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:23:"anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:21:"anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:24:"anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:18:"anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:21:"anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:23:"anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:24:"anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:26:"anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:27:"anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:18:"anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:22:"anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:22:"anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:23:"anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:20:"anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:17:"anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:17:"anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:16:"anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:22:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:9:"rsce_text";i:6;s:9:"rsce_icon";i:7;s:19:"rsce_hyperlink_list";i:8;s:19:"rsce_icon_text_list";i:9;s:15:"rsce_image_list";i:10;s:20:"rsce_image_text_list";i:11;s:14:"rsce_text_list";i:12;s:11:"sliderStart";i:13;s:9:"hyperlink";i:14;s:5:"image";i:15;s:7:"gallery";i:16;s:6:"player";i:17;s:7:"youtube";i:18;s:5:"vimeo";i:19;s:8:"download";i:20;s:9:"downloads";i:21;s:8:"comments";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
       <child alias="animationDelay">
-        <field title="pid">20010</field>
-        <field title="sorting">400</field>
+        <field title="pid">10</field>
+        <field title="sorting">10300</field>
         <field title="alias">animationDelay</field>
-        <field title="title">Delay</field>
+        <field title="title">Animation Delay</field>
         <field title="description">Defines how long to wait until the animation is performed.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:22:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:9:"rsce_text";i:6;s:9:"rsce_icon";i:7;s:19:"rsce_hyperlink_list";i:8;s:19:"rsce_icon_text_list";i:9;s:15:"rsce_image_list";i:10;s:20:"rsce_image_text_list";i:11;s:14:"rsce_text_list";i:12;s:11:"sliderStart";i:13;s:9:"hyperlink";i:14;s:5:"image";i:15;s:7:"gallery";i:16;s:6:"player";i:17;s:7:"youtube";i:18;s:5:"vimeo";i:19;s:8:"download";i:20;s:9:"downloads";i:21;s:8:"comments";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
       <child alias="animationDuration">
-        <field title="pid">20010</field>
-        <field title="sorting">500</field>
+        <field title="pid">10</field>
+        <field title="sorting">10400</field>
         <field title="alias">animationDuration</field>
-        <field title="title">Duration</field>
+        <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:22:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:9:"rsce_text";i:6;s:9:"rsce_icon";i:7;s:19:"rsce_hyperlink_list";i:8;s:19:"rsce_icon_text_list";i:9;s:15:"rsce_image_list";i:10;s:20:"rsce_image_text_list";i:11;s:14:"rsce_text_list";i:12;s:11:"sliderStart";i:13;s:9:"hyperlink";i:14;s:5:"image";i:15;s:7:"gallery";i:16;s:6:"player";i:17;s:7:"youtube";i:18;s:5:"vimeo";i:19;s:8:"download";i:20;s:9:"downloads";i:21;s:8:"comments";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
     </children>
   </archive>
-  <archive identifier="animationList">
-    <field title="id">20020</field>
-    <field title="title">Animation &amp;#40;List&amp;#41;</field>
-    <field title="identifier">animationList</field>
-    <field title="groupAlias">Animation</field>
-    <field title="sorting">20200</field>
+
+  <archive identifier="gPagination">
+    <field title="identifier">gPagination</field>
     <children>
-      <child alias="animationListTrigger">
-        <field title="pid">20020</field>
-        <field title="sorting">100</field>
-        <field title="alias">animationListTrigger</field>
-        <field title="title">Trigger</field>
-        <field title="description">Defines when the animation or effect should be triggered.</field>
-        <field title="cssClasses">a:2:{i:0;a:2:{s:3:"key";s:24:"anim-list-tg-immediately";s:5:"value";s:11:"Immediately";}i:1;a:2:{s:3:"key";s:19:"anim-list-tg-inview";s:5:"value";s:8:"Viewport";}}</field>
-        <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
-        <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
-        <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
-      </child>
-      <child alias="animationListIn">
-        <field title="pid">20020</field>
-        <field title="sorting">200</field>
-        <field title="alias">animationListIn</field>
+      <child alias="animationIn">
+        <field title="pid">40</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationIn</field>
         <field title="title">Animation &amp;#40;IN&amp;#41;</field>
-        <field title="description">Defines the type of animation.</field>
-        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"anim-list-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:23:"anim-list-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:26:"anim-list-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:23:"anim-list-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:26:"anim-list-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:24:"anim-list-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:27:"anim-list-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:21:"anim-list-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:24:"anim-list-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:26:"anim-list-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:27:"anim-list-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:29:"anim-list-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:30:"anim-list-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:21:"anim-list-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:25:"anim-list-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:25:"anim-list-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:26:"anim-list-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:23:"anim-list-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:20:"anim-list-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:20:"anim-list-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:19:"anim-list-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
       </child>
-      <child alias="animationListOut">
-        <field title="pid">20020</field>
-        <field title="sorting">300</field>
-        <field title="alias">animationListOut</field>
+      <child alias="animationOut">
+        <field title="pid">40</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOut</field>
         <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
-        <field title="description">Defines the type of animation. Works exclusively with the &amp;#34;viewport&amp;#34; trigger.</field>
-        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:21:"anim-list-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:25:"anim-list-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:28:"anim-list-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:25:"anim-list-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:28:"anim-list-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:26:"anim-list-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:29:"anim-list-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:23:"anim-list-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:26:"anim-list-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:28:"anim-list-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:29:"anim-list-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:31:"anim-list-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:32:"anim-list-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:23:"anim-list-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:27:"anim-list-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:27:"anim-list-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:28:"anim-list-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:25:"anim-list-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:22:"anim-list-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:22:"anim-list-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:21:"anim-list-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
       </child>
-      <child alias="animationListDelay">
-        <field title="pid">20020</field>
-        <field title="sorting">400</field>
-        <field title="alias">animationListDelay</field>
-        <field title="title">Delay</field>
-        <field title="description">Defines how long to wait until the animation is performed &amp;#40;added per list item&amp;#41;.</field>
-        <field title="cssClasses">a:11:{i:0;a:2:{s:3:"key";s:18:"anim-list-dly-0-05";s:5:"value";s:8:"0.05 Sec";}i:1;a:2:{s:3:"key";s:17:"anim-list-dly-0-1";s:5:"value";s:7:"0.1 Sec";}i:2;a:2:{s:3:"key";s:18:"anim-list-dly-0-15";s:5:"value";s:8:"0.15 Sec";}i:3;a:2:{s:3:"key";s:18:"anim-list-dly-0-20";s:5:"value";s:7:"0.2 Sec";}i:4;a:2:{s:3:"key";s:18:"anim-list-dly-0-25";s:5:"value";s:8:"0.25 Sec";}i:5;a:2:{s:3:"key";s:17:"anim-list-dly-0-3";s:5:"value";s:7:"0.3 Sec";}i:6;a:2:{s:3:"key";s:18:"anim-list-dly-0-35";s:5:"value";s:8:"0.35 Sec";}i:7;a:2:{s:3:"key";s:17:"anim-list-dly-0-4";s:5:"value";s:7:"0.4 Sec";}i:8;a:2:{s:3:"key";s:17:"anim-list-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:9;a:2:{s:3:"key";s:18:"anim-list-dly-0-75";s:5:"value";s:8:"0.75 Sec";}i:10;a:2:{s:3:"key";s:15:"anim-list-dly-1";s:5:"value";s:5:"1 Sec";}}</field>
+      <child alias="animationDelay">
+        <field title="pid">40</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelay</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:12:{i:0;s:4:"list";i:1;s:14:"rsce_icon_text";i:2;s:15:"rsce_image_text";i:3;s:15:"rsce_offer_list";i:4;s:14:"rsce_team_list";i:5;s:19:"rsce_hyperlink_list";i:6;s:19:"rsce_icon_text_list";i:7;s:15:"rsce_image_list";i:8;s:20:"rsce_image_text_list";i:9;s:14:"rsce_text_list";i:10;s:23:"rsce_counter_image_list";i:11;s:31:"rsce_my_counter_image_text_list";}</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
       </child>
-      <child alias="animationListDuration">
-        <field title="pid">20020</field>
-        <field title="sorting">500</field>
-        <field title="alias">animationListDuration</field>
-        <field title="title">Duration</field>
+      <child alias="animationDuration">
+        <field title="pid">40</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDuration</field>
+        <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
-        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:17:"anim-list-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:15:"anim-list-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:17:"anim-list-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:15:"anim-list-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:15:"anim-list-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
+        <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="cLayout">
+    <field title="identifier">cLayout</field>
+    <children>
+      <child alias="animationIn">
+        <field title="pid">1000</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationIn</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="animationOut">
+        <field title="pid">1000</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOut</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="animationDelay">
+        <field title="pid">1000</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelay</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="animationDuration">
+        <field title="pid">1000</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDuration</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="eGridList">
+    <field title="identifier">eGridList</field>
+    <children>
+      <child alias="animationInList">
+        <field title="pid">2010</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationInList</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationOutList">
+        <field title="pid">2010</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOutList</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationDelayList">
+        <field title="pid">2010</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelayList</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:11:{i:0;a:2:{s:3:"key";s:13:"anim-dly-0-05";s:5:"value";s:8:"0.05 Sec";}i:1;a:2:{s:3:"key";s:12:"anim-dly-0-1";s:5:"value";s:7:"0.1 Sec";}i:2;a:2:{s:3:"key";s:13:"anim-dly-0-15";s:5:"value";s:8:"0.15 Sec";}i:3;a:2:{s:3:"key";s:13:"anim-dly-0-20";s:5:"value";s:7:"0.2 Sec";}i:4;a:2:{s:3:"key";s:13:"anim-dly-0-25";s:5:"value";s:8:"0.25 Sec";}i:5;a:2:{s:3:"key";s:12:"anim-dly-0-3";s:5:"value";s:7:"0.3 Sec";}i:6;a:2:{s:3:"key";s:13:"anim-dly-0-35";s:5:"value";s:8:"0.35 Sec";}i:7;a:2:{s:3:"key";s:12:"anim-dly-0-4";s:5:"value";s:7:"0.4 Sec";}i:8;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:9;a:2:{s:3:"key";s:13:"anim-dly-0-75";s:5:"value";s:8:"0.75 Sec";}i:10;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationDurationList">
+        <field title="pid">2010</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDurationList</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="eList">
+    <field title="identifier">eList</field>
+    <children>
+      <child alias="animationInList">
+        <field title="pid">2020</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationInList</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationOutList">
+        <field title="pid">2020</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOutList</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationDelayList">
+        <field title="pid">2020</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelayList</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:11:{i:0;a:2:{s:3:"key";s:13:"anim-dly-0-05";s:5:"value";s:8:"0.05 Sec";}i:1;a:2:{s:3:"key";s:12:"anim-dly-0-1";s:5:"value";s:7:"0.1 Sec";}i:2;a:2:{s:3:"key";s:13:"anim-dly-0-15";s:5:"value";s:8:"0.15 Sec";}i:3;a:2:{s:3:"key";s:13:"anim-dly-0-20";s:5:"value";s:7:"0.2 Sec";}i:4;a:2:{s:3:"key";s:13:"anim-dly-0-25";s:5:"value";s:8:"0.25 Sec";}i:5;a:2:{s:3:"key";s:12:"anim-dly-0-3";s:5:"value";s:7:"0.3 Sec";}i:6;a:2:{s:3:"key";s:13:"anim-dly-0-35";s:5:"value";s:8:"0.35 Sec";}i:7;a:2:{s:3:"key";s:12:"anim-dly-0-4";s:5:"value";s:7:"0.4 Sec";}i:8;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:9;a:2:{s:3:"key";s:13:"anim-dly-0-75";s:5:"value";s:8:"0.75 Sec";}i:10;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationDurationList">
+        <field title="pid">2020</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDurationList</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="eText">
+    <field title="identifier">eText</field>
+    <children>
+      <child alias="animationInList">
+        <field title="pid">2060</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationInList</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:21:"fx_txt_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:25:"fx_txt_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:28:"fx_txt_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:25:"fx_txt_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:28:"fx_txt_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:26:"fx_txt_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:29:"fx_txt_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:23:"fx_txt_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:26:"fx_txt_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:28:"fx_txt_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:29:"fx_txt_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:31:"fx_txt_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:32:"fx_txt_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:23:"fx_txt_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:27:"fx_txt_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:27:"fx_txt_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:28:"fx_txt_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:25:"fx_txt_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:22:"fx_txt_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:22:"fx_txt_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:21:"fx_txt_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationOutList">
+        <field title="pid">2060</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOutList</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:23:"fx_txt_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:27:"fx_txt_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:30:"fx_txt_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:27:"fx_txt_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:30:"fx_txt_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:28:"fx_txt_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:31:"fx_txt_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:25:"fx_txt_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:28:"fx_txt_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:30:"fx_txt_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:31:"fx_txt_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:33:"fx_txt_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:34:"fx_txt_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:25:"fx_txt_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:29:"fx_txt_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:29:"fx_txt_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:30:"fx_txt_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:27:"fx_txt_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:24:"fx_txt_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:24:"fx_txt_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:23:"fx_txt_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationDelayList">
+        <field title="pid">2060</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelayList</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"txt_anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"txt_anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"txt_anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"txt_anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"txt_anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="animationDurationList">
+        <field title="pid">2060</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDurationList</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"txt_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"txt_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"txt_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"txt_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"txt_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
       </child>
     </children>
   </archive>
-  <archive identifier="effect">
-    <field title="id">20030</field>
-    <field title="title">Effect</field>
-    <field title="identifier">effect</field>
-    <field title="groupAlias">Animation</field>
-    <field title="sorting">20300</field>
+
+  <archive identifier="eImage">
+    <field title="identifier">eImage</field>
     <children>
-      <child alias="effect">
-        <field title="pid">20030</field>
-        <field title="sorting">100</field>
-        <field title="alias">effect</field>
-        <field title="title">Effect</field>
-        <field title="description">Defines the type of effect.</field>
-        <field title="cssClasses">a:12:{i:0;a:2:{s:3:"key";s:28:"efc-tg-hover efc-anim-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:29:"efc-tg-hover efc-anim-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:29:"efc-tg-hover efc-anim-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:32:"efc-tg-hover efc-anim-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:31:"efc-tg-hover efc-anim-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:31:"efc-tg-hover efc-anim-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}i:6;a:2:{s:3:"key";s:27:"efc-tg-loop efc-anim-upDown";s:5:"value";s:19:"Loop: Slide Up Down";}i:7;a:2:{s:3:"key";s:30:"efc-tg-loop efc-anim-leftRight";s:5:"value";s:22:"Loop: Slide Left Right";}i:8;a:2:{s:3:"key";s:26:"efc-tg-loop efc-anim-inOut";s:5:"value";s:17:"Loop: Zoom In Out";}i:9;a:2:{s:3:"key";s:27:"efc-tg-loop efc-anim-rotate";s:5:"value";s:12:"Loop: Rotate";}i:10;a:2:{s:3:"key";s:34:"efc-tg-loop efc-anim-rotateReverse";s:5:"value";s:20:"Loop: Rotate Reverse";}i:11;a:2:{s:3:"key";s:27:"efc-tg-loop efc-anim-circle";s:5:"value";s:12:"Loop: Circle";}}</field>
+      <child alias="animationInList">
+        <field title="pid">2070</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationInList</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:21:"fx_img_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:25:"fx_img_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:28:"fx_img_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:25:"fx_img_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:28:"fx_img_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:26:"fx_img_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:29:"fx_img_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:23:"fx_img_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:26:"fx_img_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:28:"fx_img_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:29:"fx_img_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:31:"fx_img_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:32:"fx_img_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:23:"fx_img_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:27:"fx_img_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:27:"fx_img_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:28:"fx_img_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:25:"fx_img_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:22:"fx_img_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:22:"fx_img_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:21:"fx_img_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:39:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";}</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
       </child>
-      <child alias="effectDuration">
-        <field title="pid">20030</field>
-        <field title="sorting">200</field>
-        <field title="alias">effectDuration</field>
-        <field title="title">Duration</field>
-        <field title="description">Defines the duration of the effect.</field>
-        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+      <child alias="animationOutList">
+        <field title="pid">2070</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOutList</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:23:"fx_img_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:27:"fx_img_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:30:"fx_img_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:27:"fx_img_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:30:"fx_img_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:28:"fx_img_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:31:"fx_img_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:25:"fx_img_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:28:"fx_img_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:30:"fx_img_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:31:"fx_img_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:33:"fx_img_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:34:"fx_img_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:25:"fx_img_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:29:"fx_img_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:29:"fx_img_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:30:"fx_img_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:27:"fx_img_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:24:"fx_img_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:24:"fx_img_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:23:"fx_img_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
       </child>
-      <child alias="effectEasing">
-        <field title="pid">20030</field>
-        <field title="sorting">300</field>
-        <field title="alias">effectEasing</field>
-        <field title="title">Easing</field>
-        <field title="description">Defines the timing function of the animation.</field>
-        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+      <child alias="animationDelayList">
+        <field title="pid">2070</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelayList</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"img_anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"img_anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"img_anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"img_anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"img_anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
       </child>
-      <child alias="effectFactor">
-        <field title="pid">20030</field>
-        <field title="sorting">400</field>
-        <field title="alias">effectFactor</field>
-        <field title="title">Factor</field>
-        <field title="description">The factor allows you to specify how strong the effect is.</field>
-        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+      <child alias="animationDurationList">
+        <field title="pid">2070</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDurationList</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"img_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"img_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"img_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"img_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"img_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:46:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";i:39;s:7:"article";i:40;s:5:"alias";i:41;s:4:"form";i:42;s:6:"module";i:43;s:6:"teaser";i:44;s:8:"comments";i:45;s:8:"template";}</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
       </child>
-      <child alias="scope">
-        <field title="pid">20030</field>
-        <field title="sorting">500</field>
-        <field title="alias">scope</field>
-        <field title="title">Scope</field>
-        <field title="description">Defines the scope on which element the effect is applied.</field>
-        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:13:"efc-sc-parent";s:5:"value";s:6:"Parent";}i:1;a:2:{s:3:"key";s:13:"efc-sc-inside";s:5:"value";s:6:"Inside";}i:2;a:2:{s:3:"key";s:13:"efc-sc-images";s:5:"value";s:6:"Images";}i:3;a:2:{s:3:"key";s:12:"efc-sc-icons";s:5:"value";s:5:"Icons";}i:4;a:2:{s:3:"key";s:13:"efc-sc-videos";s:5:"value";s:6:"Videos";}i:5;a:2:{s:3:"key";s:12:"efc-sc-mixed";s:5:"value";s:5:"Mixed";}}</field>
+    </children>
+  </archive>
+
+  <archive identifier="eIcon">
+    <field title="identifier">eIcon</field>
+    <children>
+      <child alias="animationInList">
+        <field title="pid">2080</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationInList</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:21:"fx_ico_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:25:"fx_ico_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:28:"fx_ico_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:25:"fx_ico_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:28:"fx_ico_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:26:"fx_ico_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:29:"fx_ico_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:23:"fx_ico_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:26:"fx_ico_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:28:"fx_ico_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:29:"fx_ico_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:31:"fx_ico_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:32:"fx_ico_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:23:"fx_ico_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:27:"fx_ico_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:27:"fx_ico_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:28:"fx_ico_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:25:"fx_ico_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:22:"fx_ico_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:22:"fx_ico_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:21:"fx_ico_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:39:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"html";i:3;s:4:"list";i:4;s:5:"table";i:5;s:4:"code";i:6;s:8:"markdown";i:7;s:12:"rsce_counter";i:8;s:17:"rsce_article_tabs";i:9;s:15:"rsce_modal_tabs";i:10;s:14:"rsce_icon_text";i:11;s:15:"rsce_image_text";i:12;s:9:"rsce_text";i:13;s:9:"rsce_icon";i:14;s:15:"rsce_offer_list";i:15;s:14:"rsce_team_list";i:16;s:19:"rsce_hyperlink_list";i:17;s:19:"rsce_icon_text_list";i:18;s:15:"rsce_image_list";i:19;s:20:"rsce_image_text_list";i:20;s:14:"rsce_text_list";i:21;s:23:"rsce_counter_image_list";i:22;s:31:"rsce_my_counter_image_text_list";i:23;s:12:"wrapperStart";i:24;s:19:"wrapperStartContent";i:25;s:15:"accordionSingle";i:26;s:14:"accordionStart";i:27;s:13:"accordionStop";i:28;s:11:"sliderStart";i:29;s:10:"sliderStop";i:30;s:9:"hyperlink";i:31;s:7:"toplink";i:32;s:5:"image";i:33;s:7:"gallery";i:34;s:6:"player";i:35;s:7:"youtube";i:36;s:5:"vimeo";i:37;s:8:"download";i:38;s:9:"downloads";}</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="animationOutList">
+        <field title="pid">2080</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOutList</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:23:"fx_ico_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:27:"fx_ico_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:30:"fx_ico_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:27:"fx_ico_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:30:"fx_ico_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:28:"fx_ico_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:31:"fx_ico_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:25:"fx_ico_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:28:"fx_ico_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:30:"fx_ico_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:31:"fx_ico_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:33:"fx_ico_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:34:"fx_ico_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:25:"fx_ico_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:29:"fx_ico_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:29:"fx_ico_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:30:"fx_ico_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:27:"fx_ico_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:24:"fx_ico_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:24:"fx_ico_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:23:"fx_ico_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="animationDelayList">
+        <field title="pid">2080</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelayList</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"ico_anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"ico_anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"ico_anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"ico_anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"ico_anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="animationDurationList">
+        <field title="pid">2080</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDurationList</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"ico_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"ico_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"ico_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"ico_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"ico_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="eLink">
+    <field title="identifier">eLink</field>
+    <children>
+      <child alias="animationIn">
+        <field title="pid">2090</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationIn</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
         <field title="extendModule">1</field>
-        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="animationOut">
+        <field title="pid">2090</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOut</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="animationDelay">
+        <field title="pid">2090</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelay</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="animationDuration">
+        <field title="pid">2090</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDuration</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="animationInList">
+        <field title="pid">2090</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationIn</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:21:"fx_lnk_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:25:"fx_lnk_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:28:"fx_lnk_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:25:"fx_lnk_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:28:"fx_lnk_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:26:"fx_lnk_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:29:"fx_lnk_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:23:"fx_lnk_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:26:"fx_lnk_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:28:"fx_lnk_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:29:"fx_lnk_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:31:"fx_lnk_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:32:"fx_lnk_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:23:"fx_lnk_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:27:"fx_lnk_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:27:"fx_lnk_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:28:"fx_lnk_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:25:"fx_lnk_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:22:"fx_lnk_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:22:"fx_lnk_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:21:"fx_lnk_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationOutList">
+        <field title="pid">2090</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOut</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:23:"fx_lnk_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:27:"fx_lnk_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:30:"fx_lnk_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:27:"fx_lnk_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:30:"fx_lnk_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:28:"fx_lnk_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:31:"fx_lnk_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:25:"fx_lnk_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:28:"fx_lnk_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:30:"fx_lnk_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:31:"fx_lnk_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:33:"fx_lnk_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:34:"fx_lnk_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:25:"fx_lnk_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:29:"fx_lnk_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:29:"fx_lnk_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:30:"fx_lnk_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:27:"fx_lnk_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:24:"fx_lnk_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:24:"fx_lnk_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:23:"fx_lnk_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationDelayList">
+        <field title="pid">2090</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelay</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"lnk_anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"lnk_anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"lnk_anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"lnk_anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"lnk_anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="animationDurationList">
+        <field title="pid">2090</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDuration</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"lnk_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"lnk_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"lnk_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"lnk_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"lnk_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
       </child>
     </children>
   </archive>
