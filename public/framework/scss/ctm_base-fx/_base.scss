@@ -1,5 +1,6 @@
 .#{$-anim-prefix}animated {
   animation-duration: var(--animate-duration);
+  animation-delay: var(--animate-delay);
   animation-fill-mode: both;
 
   @media print, (prefers-reduced-motion: reduce) {
