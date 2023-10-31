@@ -1,6 +1,6 @@
 $anim-bouncein: (
   'bounceIn': (
-    props:  ( animation-duration: calc(var(--fx-t) * 0.75) ),
+    props:  ( animation-duration: calc(var(--fxa-t) * 0.75) ),
     0:      ( transform: scale3d(0.3, 0.3, 0.3), opacity: 0 ),
     20:     ( transform: scale3d(1.1, 1.1, 1.1) ),
     40:     ( transform: scale3d(0.9, 0.9, 0.9) ),

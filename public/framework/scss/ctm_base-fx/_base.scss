@@ -1,8 +1,8 @@
 .#{$-anim-prefix}a {
-  --fx-t:1s;
-  --fx-d:0s;
-  animation-duration: var(--fx-t);
-  animation-delay: var(--fx-d);
+  --fxa-t:1s;
+  --fxa-d:0s;
+  animation-duration: var(--fxa-t);
+  animation-delay: var(--fxa-d);
   animation-fill-mode: both;
 
   @media print, (prefers-reduced-motion: reduce) {
@@ -17,8 +17,9 @@
 
 [class*="#{$-effect-prefix}"] {
   transition-property: transform;
-  transition-timing-function: var(--effect-easing);
+
   transition-duration: var(--effect-duration);
+  transition-timing-function: var(--effect-easing);
 
   animation-duration: var(--effect-duration);
   animation-timing-function: var(--effect-easing);
