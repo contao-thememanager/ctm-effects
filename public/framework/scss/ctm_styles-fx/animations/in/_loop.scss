@@ -1,0 +1,39 @@
+$anim-loopin: (
+  'loopUpDown': (
+    0:      ( transform: translateY(calc(var(--fxa-offset) * var(--fxa-factor) * -1)) ),
+    50:     ( transform: translateY(calc(var(--fxa-offset) * var(--fxa-factor))) ),
+    100:    ( transform: translateY(calc(var(--fxa-offset) * var(--fxa-factor) * -1)) ),
+  ),
+  'loopLeftRight': (
+    0:      ( transform: translateX(calc(var(--fxa-offset) * var(--fxa-factor) * -1)) ),
+    50:     ( transform: translateX(calc(var(--fxa-offset) * var(--fxa-factor))) ),
+    100:    ( transform: translateX(calc(var(--fxa-offset) * var(--fxa-factor) * -1)) ),
+  ),
+  'loopInOut': (
+    0:      ( transform: scale(calc(var(--fxa-scale) + (var(--fxa-scale) * (var(--fxa-factor) / 10)))) ),
+    50:     ( transform: scale(calc(var(--fxa-scale) + (var(--fxa-scale) * (var(--fxa-factor) / 10)) * -1)) ),
+    100:    ( transform: scale(calc(var(--fxa-scale) + (var(--fxa-scale) * (var(--fxa-factor) / 10)))) ),
+  ),
+  'loopRotate': (
+    0:      ( transform: rotate(0deg) ),
+    100:    ( transform: rotate(360deg) ),
+  ),
+  'loopRotateReverse': (
+    props:  ( animation-name: loopRotate, animation-direction: reverse )
+  ),
+  'loopCircle': (
+    0:      ( transform: rotate(0deg) translateX(var(--fxa-offset)) rotate(0deg) ),
+    100:    ( transform: rotate(360deg) translateX(var(--fxa-offset)) rotate(-360deg) ),
+  )
+);
+
+[class*="#{$-anim-prefix}loop"] {
+  animation-iteration-count: infinite;
+  animation-timing-function: var(--fxa-e);
+}
+
+@each $name, $map in $anim-loopin {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}

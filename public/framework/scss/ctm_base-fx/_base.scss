@@ -1,30 +1,41 @@
 .#{$-anim-prefix}a {
   --fxa-t:1s;
   --fxa-d:0s;
+  --fxa-e:linear;
+  --fxa-offset:10px;
+  --fxa-factor:1;
+  --fxa-scale:1;
   animation-duration: var(--fxa-t);
   animation-delay: var(--fxa-d);
   animation-fill-mode: both;
-
-  @media print, (prefers-reduced-motion: reduce) {
-    animation-duration: 1ms !important;
-    transition-duration: 1ms !important;
-
-    &[class*='Out'] {
-      opacity: 0;
-    }
-  }
 }
 
 [class*="#{$-effect-prefix}"] {
   transition-property: transform;
 
-  transition-duration: var(--effect-duration);
-  transition-timing-function: var(--effect-easing);
-
-  animation-duration: var(--effect-duration);
-  animation-timing-function: var(--effect-easing);
+  transition-duration: var(--fxe-duration);
+  transition-timing-function: var(--fxe-easing);
 }
 
-[class*="#{$-effect-prefix}loop"] {
-  animation-iteration-count: infinite;
+.#{$-anim-prefix}a,
+[class*="#{$-effect-prefix}"] {
+
+  &.c_link {
+    display: inline-flex;
+  }
+}
+
+@media print, (prefers-reduced-motion: reduce) {
+
+  .#{$-anim-prefix}a {
+    animation-duration: 1ms !important;
+
+    &[class*='Out'] {
+      opacity: 0;
+    }
+  }
+
+  [class*="#{$-effect-prefix}"] {
+    transition-duration: 1ms !important;
+  }
 }
