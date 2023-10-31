@@ -1,1 +1,159 @@
-var CtmEffects=(()=>{var k=Object.defineProperty;var u=Object.getOwnPropertySymbols;var I=Object.prototype.hasOwnProperty,b=Object.prototype.propertyIsEnumerable;var y=(s,a,n)=>a in s?k(s,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):s[a]=n,f=(s,a)=>{for(var n in a||(a={}))I.call(a,n)&&y(s,n,a[n]);if(u)for(var n of u(a))b.call(a,n)&&y(s,n,a[n]);return s};var v=(s,a)=>()=>(a||s((a={exports:{}}).exports,a),a.exports);var E=v(_=>{window.useAnimation=(s="50px")=>{w({i:{o:s}})};var l=(s,a)=>s.className.includes(a)?s.className.split(a)[1].split(" ")[0]:null,w=s=>{var p;let n=f(f({},{i:{r:null,o:"50px",t:.5},a:{s:{p:"fxa_",s:{i:"-in-",o:"-out-"},x:"fxa_a",l:"c_list",t:{el:{p:"fx_anim",s:".fx_anim",d:"anim-dly-",t:"anim-dtn-"},text:{p:"fx_txt_anim",s:".c_text",d:"txt_anim-dly-",t:"txt_anim-dtn-"},image:{p:"fx_img_anim",s:".image_container",d:"img_anim-dly-",t:"img_anim-dtn-"},icon:{p:"fx_ico_anim",s:".c_icon",d:"ico_anim-dly-",t:"ico_anim-dtn-"},link:{p:"fx_lnk_anim",s:".c_link",d:"lnk_anim-dly-",t:"lnk_anim-dtn-"}}}}}),s),x=(t,i,o)=>{o&&t.classList.remove(n.a.s.x,n.a.s.p+o),t.classList.add(n.a.s.x,n.a.s.p+i)},A=(t,i,o)=>{let c={root:n.i.r,rootMargin:n.i.o,threshold:n.i.t},r=d=>{d.forEach(e=>{e.isIntersecting?i.call(_):o.call(_)})};new IntersectionObserver(r,c).observe(t)},h=(t,i)=>{let o=i.p+n.a.s.s.i,c=i.p+n.a.s.s.o;[i.d+l(t,i.d),i.t+l(t,i.t),o+l(t,o),c+l(t,c)].forEach(r=>t.classList.contains(r)&&t.classList.remove(r))},g=(t,i,o,c)=>{let r=l(t,c.t);r&&i.style.setProperty("--fx-t",r.replace("-",".")+"s");let d=l(t,c.d);d&&i.style.setProperty("--fx-d",(parseFloat(d.replace("-","."))*(o+1)).toFixed(3)+"s");let e=l(t,c.p+n.a.s.s.i),m=l(t,c.p+n.a.s.s.o);A(t,e?()=>x(i,e,m):()=>{},m?()=>x(i,m,e):()=>{})};for(let t in n.a.s.t){let i=n.a.s.t[t];(p=document.querySelectorAll(`[class*="${i.p}"]`))==null||p.forEach(o=>{var r,d;let c=(e,m)=>g(o,e,m,i);switch(t){case"el":o.classList.contains(n.a.s.l)?(r=Array.from(o.children))==null||r.forEach((e,m)=>c(e,m)):c(o,0);break;default:(d=Array.from(o.querySelectorAll(i.s)))==null||d.forEach((e,m)=>c(e,m))}h(o,i)})}}});return E();})();
+var CtmEffects = (() => {
+  var __defProp = Object.defineProperty;
+  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __propIsEnum = Object.prototype.propertyIsEnumerable;
+  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+  var __spreadValues = (a, b) => {
+    for (var prop in b || (b = {}))
+      if (__hasOwnProp.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    if (__getOwnPropSymbols)
+      for (var prop of __getOwnPropSymbols(b)) {
+        if (__propIsEnum.call(b, prop))
+          __defNormalProp(a, prop, b[prop]);
+      }
+    return a;
+  };
+  var __commonJS = (cb, mod) => function __require() {
+    return mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  };
+  var require_effects = __commonJS({
+    "assets/js/effects.js"(exports) {
+      window.useCtmEffects = (inViewOffset = "50px") => {
+        initEffectsBundle({
+          inView: {
+            offset: inViewOffset
+          }
+        });
+      };
+      const getFxValueByPrefix = (el, prefix) => {
+        if (!el.className.includes(prefix))
+          return null;
+        return el.className.split(prefix)[1].split(" ")[0];
+      };
+      const initEffectsBundle = (opts) => {
+        var _a;
+        const defaultOptions = {
+          inView: {
+            root: null,
+            offset: "50px",
+            threshold: 0.5
+          },
+          trigger: "fx_",
+          list: "c_list",
+          scope: {
+            el: {
+              animation: ".fx_anim"
+            },
+            txt: {
+              animation: ".c_text"
+            },
+            img: {
+              animation: ".image_container"
+            },
+            ico: {
+              animation: ".c_icon"
+            },
+            lnk: {
+              animation: ".c_link"
+            }
+          },
+          animation: {
+            abbr: "anim",
+            prefix: "fxa_",
+            perform: "fxa_a",
+            infixIn: "-in-",
+            infixOut: "-out-",
+            delay: {
+              class: "anim-dly-",
+              prop: "--fxa-d"
+            },
+            duration: {
+              class: "anim-dtn-",
+              prop: "--fxa-t"
+            }
+          },
+          effect: {
+            abbr: "efc",
+            prefix: "fxe_",
+            perform: "fxe_a",
+            duration: {
+              class: "efc-dtn",
+              prop: ""
+            }
+          }
+        };
+        const options = __spreadValues(__spreadValues({}, defaultOptions), opts);
+        const animate = (el, name, removeFromClasses) => {
+          if (removeFromClasses)
+            el.classList.remove(options.animation.perform, options.animation.prefix + removeFromClasses);
+          el.classList.add(options.animation.perform, options.animation.prefix + name);
+        };
+        const animateInView = (observerElement, enter, exit) => {
+          const observerOptions = {
+            root: options.inView.root,
+            rootMargin: options.inView.offset,
+            threshold: options.inView.threshold
+          };
+          const callback = (entries) => {
+            entries.forEach((entry) => {
+              entry.isIntersecting ? enter.call(exports) : exit.call(exports);
+            });
+          };
+          new IntersectionObserver(callback, observerOptions).observe(observerElement);
+        };
+        const removeAnimationInitClass = (el, type, prefix = "") => {
+          const { delay, duration, abbr, infixIn, infixOut } = options[type];
+          const triggerPrefix = options.trigger + prefix;
+          [
+            prefix + delay.class + getFxValueByPrefix(el, prefix + delay.class),
+            prefix + duration.class + getFxValueByPrefix(el, prefix + duration.class),
+            triggerPrefix + abbr + infixIn + getFxValueByPrefix(el, triggerPrefix + abbr + infixIn),
+            triggerPrefix + abbr + infixOut + getFxValueByPrefix(el, triggerPrefix + abbr + infixOut)
+          ].forEach((option) => el.classList.contains(option) && el.classList.remove(option));
+        };
+        const initAnimationItem = (el, item, type, trigger, prefix, index) => {
+          const duration = getFxValueByPrefix(el, prefix + options[type].duration.class);
+          if (duration)
+            item.style.setProperty(options[type].duration.prop, duration.replace("-", ".") + "s");
+          const delay = getFxValueByPrefix(el, prefix + options[type].delay.class);
+          if (delay)
+            item.style.setProperty(options[type].delay.prop, (parseFloat(delay.replace("-", ".")) * (index + 1)).toFixed(3) + "s");
+          const inAnimationName = getFxValueByPrefix(el, trigger + options[type].infixIn);
+          const outAnimationName = getFxValueByPrefix(el, trigger + options[type].infixOut);
+          const inAnimation = inAnimationName ? () => animate(item, inAnimationName, outAnimationName) : () => {
+          };
+          const outAnimation = outAnimationName ? () => animate(item, outAnimationName, inAnimationName) : () => {
+          };
+          animateInView(el, inAnimation, outAnimation);
+        };
+        const initEffectsItem = (el, item, typeOptions) => {
+        };
+        for (const scope in options.scope) {
+          for (const type in options.scope[scope]) {
+            let infix = scope !== "el" ? scope + "_" : "";
+            let typeTrigger = options.trigger + infix + options[type].abbr;
+            (_a = document.querySelectorAll(`[class*="${typeTrigger}"]`)) == null ? void 0 : _a.forEach((el) => {
+              var _a2, _b;
+              const initItem = (item, index) => initAnimationItem(el, item, type, typeTrigger, infix, index);
+              switch (scope) {
+                case "el":
+                  if (!el.classList.contains(options.list))
+                    initItem(el, 0);
+                  else
+                    (_a2 = Array.from(el.children)) == null ? void 0 : _a2.forEach((item, index) => initItem(item, index));
+                  break;
+                default:
+                  (_b = Array.from(el.querySelectorAll(options.scope[scope][type]))) == null ? void 0 : _b.forEach((item, index) => initItem(item, index));
+              }
+              removeAnimationInitClass(el, type, infix);
+            });
+          }
+        }
+      };
+    }
+  });
+  return require_effects();
+})();
+//# sourceMappingURL=effects.js.map

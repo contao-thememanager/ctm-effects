@@ -5,7 +5,7 @@
 
 <script>
   window.addEventListener('load', () => {
-    useAnimation()
+    useCtmEffects()
     //useEffect()
   })
 </script>

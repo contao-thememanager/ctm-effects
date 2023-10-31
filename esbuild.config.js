@@ -4,9 +4,9 @@ const esbuild = require('esbuild');
 esbuild.build({
     entryPoints: ['./assets/js/effects.js'],
     outfile: './public/assets/dist/effects.js',
-    minify: true,
-    bundle: true,
-    sourcemap: false,
+    minify: false,
+    bundle: false,
+    sourcemap: true,
     format: 'iife',
     globalName: 'CtmEffects',
     target: ['es2015']
