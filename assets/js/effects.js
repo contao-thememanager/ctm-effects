@@ -6,10 +6,6 @@ window.useCtmEffects = (inViewOffset  = "50px") => { // inViewOffset
     })
 }
 
-/*window.useEffect = () => {
-    initEffect()
-}*/
-
 const getFxValueByPrefix = (el, prefix) => {
     if (!el.className.includes(prefix))
         return null
@@ -128,19 +124,25 @@ const initEffectsBundle = (opts) => {
         list:               'c_list',
         scope: {
             el: {
-                animation:  '.fx_anim'
+                animation:  '.fx_anim',
+                effect:     '.fx_efc',
             },
             txt: {
-                animation:  '.c_text'
+                animation:  '.c_text',
+                effect:     '.c_text',
             },
             img: {
-                animation:  '.image_container'
+                animation:  '.image_container',
+                effect:     '.image_container',
+
             },
             ico: {
-                animation:  '.c_icon'
+                animation:  '.c_icon',
+                effect:     '.c_icon'
             },
             lnk: {
-                animation:  '.c_link'
+                animation:  '.c_link',
+                effect:     '.c_link'
             }
         },
         animation: {
@@ -162,9 +164,18 @@ const initEffectsBundle = (opts) => {
             abbr:           'efc',
             prefix:         'fxe_',
             perform:        'fxe_a',
+            infixHover:     '-hover-',
+            factor : {
+                class:      'efc-fct-',
+                prop:       '--fxe-factor'
+            },
             duration : {
-                class:      'efc-dtn',
-                prop:       ''
+                class:      'efc-dtn-',
+                prop:       '--fxe-duration'
+            },
+            easing : {
+                class:      'efc-eas-',
+                prop:       '--fxe-easing'
             }
         }
     }
@@ -204,27 +215,39 @@ const initEffectsBundle = (opts) => {
         ].forEach(option => el.classList.contains(option) && el.classList.remove(option))
     }
 
-    const initAnimationItem = (el, item, type, trigger, prefix, index) => {
-        // Get animation properties
-        const duration = getFxValueByPrefix(el, prefix + options[type].duration.class)
-        if (duration)
-            item.style.setProperty(options[type].duration.prop, duration.replace('-', '.') + 's')
-
-        const delay = getFxValueByPrefix(el, prefix + options[type].delay.class)
-        if (delay)
-            item.style.setProperty(options[type].delay.prop, (parseFloat(delay.replace('-', '.')) * (index + 1)).toFixed(3) + 's')
-
-        const inAnimationName  = getFxValueByPrefix(el, trigger + options[type].infixIn)
-        const outAnimationName = getFxValueByPrefix(el, trigger + options[type].infixOut)
-
-        const inAnimation  = inAnimationName  ? () => animate(item, inAnimationName, outAnimationName) : () => {}
-        const outAnimation = outAnimationName ? () => animate(item, outAnimationName, inAnimationName) : () => {}
-
-        animateInView(el, inAnimation, outAnimation)
+    const parseTimeProperty = (timeString, index = 0) => {
+        return ((index + 1) * parseFloat(timeString.replace('-', '.'))).toFixed(3) + 's'
     }
 
-    const initEffectsItem = (el, item, typeOptions) => {
+    const initFxElement = (el, item, type, trigger, prefix, index) => {
 
+        let inAnimationName, outAnimationName
+
+        switch (type)
+        {
+            case 'animation':
+                const delay = getFxValueByPrefix(el, prefix + options[type].delay.class)
+                if (delay)
+                    item.style.setProperty(options[type].delay.prop, parseTimeProperty(delay, index))
+
+                const duration = getFxValueByPrefix(el, prefix + options[type].duration.class)
+                if (duration)
+                    item.style.setProperty(options[type].duration.prop, parseTimeProperty(duration))
+
+                inAnimationName  = getFxValueByPrefix(el, trigger + options[type].infixIn)
+                outAnimationName = getFxValueByPrefix(el, trigger + options[type].infixOut)
+
+                const inAnimation  = inAnimationName  ? () => animate(item, inAnimationName, outAnimationName) : () => {}
+                const outAnimation = outAnimationName ? () => animate(item, outAnimationName, inAnimationName) : () => {}
+
+                animateInView(el, inAnimation, outAnimation)
+
+                break
+
+            case 'effect':
+
+                break
+        }
     }
 
     for (const scope in options.scope)
@@ -235,7 +258,7 @@ const initEffectsBundle = (opts) => {
             let typeTrigger = options.trigger + infix + options[type].abbr
 
             document.querySelectorAll(`[class*="${typeTrigger}"]`)?.forEach(el => {
-                const initItem = (item, index) => initAnimationItem(el, item, type, typeTrigger, infix, index)
+                const initItem = (item, index) => initFxElement(el, item, type, typeTrigger, infix, index)
 
                 switch (scope)
                 {
@@ -250,7 +273,8 @@ const initEffectsBundle = (opts) => {
                         Array.from(el.querySelectorAll(options.scope[scope][type]))?.forEach((item, index) => initItem(item, index))
                 }
 
-                removeAnimationInitClass(el, type, infix)
+                if ('animation' === type)
+                    removeAnimationInitClass(el, type, infix)
             })
         }
     }
