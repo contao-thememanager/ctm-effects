@@ -134,7 +134,7 @@ const initEffectsBundle = (opts) => {
 
     const animateInView = (observerElement, item, inAnimationName, outAnimationName) => {
 
-        if (!inAnimationName || !outAnimationName)
+        if (!inAnimationName && !outAnimationName)
             return
 
         let isAnimating, hasEntered  = false
@@ -164,14 +164,14 @@ const initEffectsBundle = (opts) => {
 
         observerElement.addEventListener('animationstart', () => {
             isAnimating = true
-            if (hasEntered)
-                observer.unobserve(observerElement)
         })
 
         observerElement.addEventListener('animationend', () => {
             item.classList.remove(options.animation.prefix + outAnimationName) // Remove out-animation onEnd
             isAnimating = false
-            observer.observe(observerElement)
+
+            if (!(inAnimationName && outAnimationName) || !(outAnimationName && inAnimationName))
+                observer.disconnect();
         })
 
         observer.observe(observerElement)
