@@ -12,9 +12,12 @@
 
 [class*="#{$-effect-prefix}"] {
   transition-property: transform;
-
   transition-duration: var(--fxe-duration);
+  animation-duration: var(--fxe-duration);
   transition-timing-function: var(--fxe-easing);
+  animation-name: none !important; // Do not allow simultaneous animation
+  animation-delay: 0s;
+  animation-fill-mode: none;
 }
 
 .#{$-anim-prefix}a,
