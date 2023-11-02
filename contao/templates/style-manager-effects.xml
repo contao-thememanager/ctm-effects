@@ -82,7 +82,6 @@
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
-
       <child alias="effectFactor">
         <field title="pid">10</field>
         <field title="sorting">11200</field>
@@ -98,7 +97,6 @@
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
-
       <child alias="effectDuration">
         <field title="pid">10</field>
         <field title="sorting">11300</field>
@@ -114,7 +112,6 @@
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
-
       <child alias="effectEasing">
         <field title="pid">10</field>
         <field title="sorting">11400</field>
@@ -130,7 +127,6 @@
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
-
     </children>
   </archive>
 
@@ -198,6 +194,68 @@
         <field title="extendModule">1</field>
         <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
       </child>
+
+      <child alias="effect">
+        <field title="pid">40</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effect</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
+      </child>
+      <child alias="effectFactor">
+        <field title="pid">40</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactor</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
+      </child>
+      <child alias="effectDuration">
+        <field title="pid">40</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDuration</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
+      </child>
+      <child alias="effectEasing">
+        <field title="pid">40</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasing</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:7:"gallery";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:9:{i:0;s:8:"comments";i:1;s:9:"faqreader";i:2;s:9:"eventlist";i:3;s:11:"eventreader";i:4;s:11:"newsarchive";i:5;s:8:"newslist";i:6;s:10:"newsreader";i:7;s:6:"search";i:8;s:7:"listing";}</field>
+      </child>
     </children>
   </archive>
 
@@ -216,7 +274,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -231,7 +289,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -246,7 +304,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -261,7 +319,69 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:31:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"module";i:29;s:6:"teaser";i:30;s:8:"comments";}</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+
+      <child alias="effect">
+        <field title="pid">1000</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effect</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="effectFactor">
+        <field title="pid">1000</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactor</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="effectDuration">
+        <field title="pid">1000</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDuration</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
+      </child>
+      <child alias="effectEasing">
+        <field title="pid">1000</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasing</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:30:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:4:"form";i:28;s:6:"teaser";i:29;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -324,6 +444,68 @@
         <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+
+      <child alias="effectList">
+        <field title="pid">2010</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2010</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2010</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:5:{i:0;s:7:"gallery";i:1;s:19:"rsce_icon_text_list";i:2;s:15:"rsce_image_list";i:3;s:20:"rsce_image_text_list";i:4;s:14:"rsce_text_list";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:6:"search";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2010</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
@@ -399,6 +581,68 @@
         <field title="extendModule">1</field>
         <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
       </child>
+
+      <child alias="effectList">
+        <field title="pid">2020</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2020</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2020</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2020</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:4:"list";i:1;s:19:"rsce_hyperlink_list";i:2;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
     </children>
   </archive>
 
@@ -455,6 +699,64 @@
         <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"txt_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"txt_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"txt_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"txt_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"txt_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+
+      <child alias="effectList">
+        <field title="pid">2060</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:23:"fx_txt_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:24:"fx_txt_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:24:"fx_txt_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:27:"fx_txt_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:26:"fx_txt_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:26:"fx_txt_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2060</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:15:"txt_efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:16:"txt_efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:15:"txt_efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:16:"txt_efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:16:"txt_efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:15:"txt_efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:13:"txt_efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:15:"txt_efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:13:"txt_efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:15:"txt_efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:13:"txt_efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:15:"txt_efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:13:"txt_efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2060</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:15:"txt_efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:13:"txt_efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:15:"txt_efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:13:"txt_efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:15:"txt_efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:13:"txt_efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:13:"txt_efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:13:"txt_efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:13:"txt_efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:14:"txt_efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:14:"txt_efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:14:"txt_efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:14:"txt_efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:14:"txt_efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:16:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:20:"rsce_image_text_list";i:13;s:14:"rsce_text_list";i:14;s:9:"hyperlink";i:15;s:7:"toplink";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:8:"newslist";i:1;s:9:"eventlist";i:2;s:7:"faqlist";i:3;s:7:"faqpage";i:4;s:11:"articlelist";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2060</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:16:"txt_efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:19:"txt_efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:20:"txt_efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:23:"txt_efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
         <field title="extendContentElement">1</field>
@@ -525,6 +827,64 @@
         <field title="extendModule">1</field>
         <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
       </child>
+
+      <child alias="effectList">
+        <field title="pid">2070</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:23:"fx_img_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:24:"fx_img_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:24:"fx_img_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:27:"fx_img_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:26:"fx_img_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:26:"fx_img_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2070</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:15:"img_efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:16:"img_efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:15:"img_efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:16:"img_efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:16:"img_efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:15:"img_efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:13:"img_efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:15:"img_efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:13:"img_efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:15:"img_efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:13:"img_efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:15:"img_efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:13:"img_efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2070</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:15:"img_efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:13:"img_efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:15:"img_efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:13:"img_efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:15:"img_efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:13:"img_efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:13:"img_efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:13:"img_efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:13:"img_efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:14:"img_efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:14:"img_efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:14:"img_efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:14:"img_efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:14:"img_efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2070</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:16:"img_efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:19:"img_efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:20:"img_efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:23:"img_efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:11:"newsarchive";}</field>
+      </child>
     </children>
   </archive>
 
@@ -575,6 +935,56 @@
         <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"ico_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"ico_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"ico_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"ico_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"ico_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+
+      <child alias="effectList">
+        <field title="pid">2080</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:23:"fx_ico_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:24:"fx_ico_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:24:"fx_ico_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:27:"fx_ico_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:26:"fx_ico_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:26:"fx_ico_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2080</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:15:"ico_efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:16:"ico_efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:15:"ico_efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:16:"ico_efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:16:"ico_efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:15:"ico_efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:13:"ico_efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:15:"ico_efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:13:"ico_efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:15:"ico_efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:13:"ico_efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:15:"ico_efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:13:"ico_efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2080</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:15:"ico_efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:13:"ico_efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:15:"ico_efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:13:"ico_efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:15:"ico_efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:13:"ico_efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:13:"ico_efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:13:"ico_efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:13:"ico_efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:14:"ico_efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:14:"ico_efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:14:"ico_efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:14:"ico_efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:14:"ico_efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"rsce_icon";i:1;s:14:"rsce_icon_text";i:2;s:19:"rsce_icon_text_list";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2080</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:16:"ico_efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:19:"ico_efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:20:"ico_efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:23:"ico_efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
         <field title="extendContentElement">1</field>
@@ -647,6 +1057,69 @@
         <field title="extendModule">1</field>
         <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
       </child>
+
+      <child alias="effect">
+        <field title="pid">2090</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effect</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="effectFactor">
+        <field title="pid">2090</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactor</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:11:"efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:12:"efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:11:"efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:12:"efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:12:"efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:11:"efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:9:"efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:11:"efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:9:"efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:11:"efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:9:"efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:11:"efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:9:"efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="effectDuration">
+        <field title="pid">2090</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDuration</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:11:"efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:9:"efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:11:"efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:9:"efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:11:"efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:9:"efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:9:"efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:9:"efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:9:"efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:10:"efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:10:"efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:10:"efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:10:"efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:10:"efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      <child alias="effectEasing">
+        <field title="pid">2090</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasing</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:3:{i:0;s:9:"hyperlink";i:1;s:7:"toplink";i:2;s:8:"download";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
+      </child>
+      
       <child alias="animationInList">
         <field title="pid">2090</field>
         <field title="sorting">10100</field>
@@ -697,6 +1170,64 @@
         <field title="title">Animation Duration</field>
         <field title="description">Defines the duration of the animation.</field>
         <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:16:"lnk_anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:14:"lnk_anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:16:"lnk_anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:14:"lnk_anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:14:"lnk_anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+
+      <child alias="effectList">
+        <field title="pid">2090</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effectList</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:23:"fx_lnk_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:24:"fx_lnk_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:24:"fx_lnk_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:27:"fx_lnk_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:26:"fx_lnk_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:26:"fx_lnk_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectFactorList">
+        <field title="pid">2090</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactorList</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:13:{i:0;a:2:{s:3:"key";s:15:"lnk_efc-fct-0-1";s:5:"value";s:3:"0.1";}i:1;a:2:{s:3:"key";s:16:"lnk_efc-fct-0-25";s:5:"value";s:4:"0.25";}i:2;a:2:{s:3:"key";s:15:"lnk_efc-fct-0-5";s:5:"value";s:3:"0.5";}i:3;a:2:{s:3:"key";s:16:"lnk_efc-fct-0-75";s:5:"value";s:4:"0.75";}i:4;a:2:{s:3:"key";s:16:"lnk_efc-fct-1-25";s:5:"value";s:4:"1.25";}i:5;a:2:{s:3:"key";s:15:"lnk_efc-fct-1-5";s:5:"value";s:3:"1.5";}i:6;a:2:{s:3:"key";s:13:"lnk_efc-fct-2";s:5:"value";s:1:"2";}i:7;a:2:{s:3:"key";s:15:"lnk_efc-fct-2-5";s:5:"value";s:3:"2.5";}i:8;a:2:{s:3:"key";s:13:"lnk_efc-fct-3";s:5:"value";s:1:"3";}i:9;a:2:{s:3:"key";s:15:"lnk_efc-fct-3-5";s:5:"value";s:3:"3.5";}i:10;a:2:{s:3:"key";s:13:"lnk_efc-fct-4";s:5:"value";s:1:"4";}i:11;a:2:{s:3:"key";s:15:"lnk_efc-fct-4-5";s:5:"value";s:3:"4.5";}i:12;a:2:{s:3:"key";s:13:"lnk_efc-fct-5";s:5:"value";s:1:"5";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectDurationList">
+        <field title="pid">2090</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDurationList</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:14:{i:0;a:2:{s:3:"key";s:15:"lnk_efc-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:13:"lnk_efc-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:15:"lnk_efc-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:13:"lnk_efc-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:15:"lnk_efc-dtn-2-5";s:5:"value";s:7:"2.5 Sec";}i:5;a:2:{s:3:"key";s:13:"lnk_efc-dtn-3";s:5:"value";s:5:"3 Sec";}i:6;a:2:{s:3:"key";s:13:"lnk_efc-dtn-4";s:5:"value";s:5:"4 Sec";}i:7;a:2:{s:3:"key";s:13:"lnk_efc-dtn-5";s:5:"value";s:5:"5 Sec";}i:8;a:2:{s:3:"key";s:13:"lnk_efc-dtn-6";s:5:"value";s:5:"6 Sec";}i:9;a:2:{s:3:"key";s:14:"lnk_efc-dtn-10";s:5:"value";s:6:"10 Sec";}i:10;a:2:{s:3:"key";s:14:"lnk_efc-dtn-15";s:5:"value";s:6:"15 Sec";}i:11;a:2:{s:3:"key";s:14:"lnk_efc-dtn-20";s:5:"value";s:6:"20 Sec";}i:12;a:2:{s:3:"key";s:14:"lnk_efc-dtn-30";s:5:"value";s:6:"30 Sec";}i:13;a:2:{s:3:"key";s:14:"lnk_efc-dtn-40";s:5:"value";s:6:"40 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:8:{i:0;s:14:"rsce_icon_text";i:1;s:15:"rsce_image_text";i:2;s:9:"rsce_text";i:3;s:19:"rsce_hyperlink_list";i:4;s:19:"rsce_icon_text_list";i:5;s:20:"rsce_image_text_list";i:6;s:14:"rsce_text_list";i:7;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:1:{i:0;s:11:"articlelist";}</field>
+      </child>
+      <child alias="effectEasingList">
+        <field title="pid">2090</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasingList</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:16:"lnk_efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:19:"lnk_efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:20:"lnk_efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:23:"lnk_efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
         <field title="extendContentElement">1</field>
