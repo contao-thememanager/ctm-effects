@@ -3,12 +3,12 @@
   &zoomIn {
     transform: scale(1);
 
-    &.#{$-effect-prefix}a {transform: scale(calc(var(--fxe-scale) + (var(--fxe-scale) * (var(--fxe-factor) / 10))));}
+    &.#{$-effect-prefix}a { transform: scale(calc(var(--fxe-scale) + (var(--fxe-scale) * (var(--fxe-factor) / 10)))); }
   }
 
   &zoomOut {
     transform: scale(1);
 
-    &.#{$-effect-prefix}a {transform: scale(calc(var(--fxe-scale) + (var(--fxe-scale) * (var(--fxe-factor) / 10)) * -1));}
+    &.#{$-effect-prefix}a { transform: scale(calc(var(--fxe-scale) + (var(--fxe-scale) * (var(--fxe-factor) / 10)) * -1)); }
   }
 }

@@ -5,10 +5,16 @@
     "scripts": {
         "build": "node esbuild.config.js"
     },
-    "author": {
-        "name": "Daniele Sciannimanica",
-        "url": "https://github.com/doishub"
-    },
+    "authors": [
+        {
+            "name": "Daniele Sciannimanica",
+            "url": "https://github.com/doishub"
+        },
+        {
+            "name": "Sebastian Zoglowek",
+            "url": "https://github.com/zoglo"
+        }
+    ],
     "devDependencies": {
         "esbuild": "^0.12.5"
     }
