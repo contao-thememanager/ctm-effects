@@ -89,10 +89,14 @@ const initEffectsBundle = (opts) => {
     }
 
     const animate = (el, name, removeFromClasses) => {
-        if (removeFromClasses)
-            el.classList.remove(options.animation.perform, options.animation.prefix + removeFromClasses)
+        const animation = options.animation
+        const perform   = animation.perform
+        const prefix    = animation.prefix
 
-        el.classList.add(options.animation.perform, options.animation.prefix + name)
+        if (removeFromClasses)
+            el.classList.remove(perform, prefix + removeFromClasses)
+
+        el.classList.add(perform, prefix + name)
     }
 
     const effect = (el, item, name) => {
@@ -115,14 +119,16 @@ const initEffectsBundle = (opts) => {
         if (!fxTrigger || !fxItem)
             return
 
-        fxItem.classList.add(options.effect.prefix + name)
+        const opt = options.effect
+
+        fxItem.classList.add(opt.prefix + name)
 
         fxTrigger.addEventListener('mouseover', () => {
-            fxItem.classList.add(options.effect.perform)
+            fxItem.classList.add(opt.perform)
         })
 
         fxTrigger.addEventListener('mouseleave', () => {
-            fxItem.classList.remove(options.effect.perform)
+            fxItem.classList.remove(opt.perform)
         })
     }
 
@@ -133,10 +139,12 @@ const initEffectsBundle = (opts) => {
 
         let isAnimating, hasEntered  = false
 
+        const observerSettings = options.inView
+
         const observerOptions = {
-            root:       options.inView.root,
-            rootMargin: options.inView.offset,
-            threshold:  options.inView.threshold
+            root:       observerSettings.root,
+            rootMargin: observerSettings.offset,
+            threshold:  observerSettings.threshold
         }
 
         const observer = new IntersectionObserver((entries) => {
@@ -182,7 +190,7 @@ const initEffectsBundle = (opts) => {
     }
 
     const getInfixClass = (type, el, prefix, infix) => {
-        const abbreviation = options[type].abbr
+        const abbreviation  = options[type].abbr
         const triggerPrefix = options.trigger + prefix
 
         return triggerPrefix + abbreviation + infix + getFxValueByPrefix(el, triggerPrefix + abbreviation + infix)
@@ -191,6 +199,7 @@ const initEffectsBundle = (opts) => {
     const removeInitClasses = (type, el, prefix = '') => {
         let classes = []
         const props = options[type].props
+        const infix = options.infix
 
         for (const property in props)
         {
@@ -201,14 +210,14 @@ const initEffectsBundle = (opts) => {
         {
             case 'animation':
                 classes.push(
-                    getInfixClass(type, el, prefix, options.infix.in),
-                    getInfixClass(type, el, prefix, options.infix.out)
+                    getInfixClass(type, el, prefix, infix.in),
+                    getInfixClass(type, el, prefix, infix.out)
                 )
                 break
 
             case 'effect':
                 classes.push(
-                    getInfixClass(type, el, prefix, options.infix.hover)
+                    getInfixClass(type, el, prefix, infix.hover)
                 )
                 break
         }
@@ -223,41 +232,42 @@ const initEffectsBundle = (opts) => {
     const setFxProperty = (property, opts, el, item, type, prefix, index) => {
 
         const prop = opts.prop
-        const value = getFxValueByPrefix(el, prefix + opts.class)
+        const val  = getFxValueByPrefix(el, prefix + opts.class)
 
-        if (!value)
+        if (!val)
             return
 
         switch (property)
         {
             case 'delay':
             case 'duration':
-                item.style.setProperty(prop, parseTimeProperty(value, index))
+                item.style.setProperty(prop, parseTimeProperty(val, index))
                 break
 
             case 'factor':
-                item.style.setProperty(prop, value.replace('-', '.'))
+                item.style.setProperty(prop, val.replace('-', '.'))
                 break
 
             default:
-                item.style.setProperty(prop, value)
+                item.style.setProperty(prop, val)
         }
     }
 
     const initFxElement = (el, item, type, trigger, prefix, index) => {
+        const infix = options.infix
 
         switch (type)
         {
             case 'animation':
-                const inAnimationName  = getFxValueByPrefix(el, trigger + options.infix.in)
-                const outAnimationName = getFxValueByPrefix(el, trigger + options.infix.out)
+                const inAnimationName  = getFxValueByPrefix(el, trigger + infix.in)
+                const outAnimationName = getFxValueByPrefix(el, trigger + infix.out)
 
                 animateInView(el, item, inAnimationName, outAnimationName)
                 break
 
             case 'effect':
                 index = 0 // Do not add index timing to effects
-                effect(el, item, getFxValueByPrefix(el, trigger + options.infix.hover))
+                effect(el, item, getFxValueByPrefix(el, trigger + infix.hover))
                 break
         }
 
@@ -273,11 +283,11 @@ const initEffectsBundle = (opts) => {
     {
         for (const type in options.scope[scope])
         {
-            let infix = ('el' !== scope ? scope + '_' : '')
-            let typeTrigger = options.trigger + infix + options[type].abbr
+            let infix   = ('el' !== scope ? scope + '_' : '')
+            let trigger = options.trigger + infix + options[type].abbr
 
-            document.querySelectorAll(`[class*="${typeTrigger}"]`)?.forEach(el => {
-                const initItem = (item, index) => initFxElement(el, item, type, typeTrigger, infix, index)
+            document.querySelectorAll(`[class*="${trigger}"]`)?.forEach(el => {
+                const initItem = (item, index) => initFxElement(el, item, type, trigger, infix, index)
 
                 switch (scope)
                 {
