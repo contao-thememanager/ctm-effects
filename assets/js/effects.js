@@ -1,7 +1,7 @@
 window.useCtmEffects = (inViewOffset  = "50px") => { // inViewOffset
     initEffectsBundle({
         inView : { // inView
-            offset: inViewOffset
+            offset: `${inViewOffset} 10000px`
         }
     })
 }
@@ -10,8 +10,8 @@ const initEffectsBundle = (opts) => {
     const defaultOptions = {
         inView: {
             root:          null,
-            offset:        '50px',
-            threshold:     0.5
+            offset:        '50px 10000px',
+            threshold:     0
         },
         trigger:           'fx_',
         list:              'c_list',
@@ -126,18 +126,54 @@ const initEffectsBundle = (opts) => {
         })
     }
 
-    const animateInView = (observerElement, enter, exit) => {
+    const animateInView = (observerElement, item, inAnimationName, outAnimationName) => {
+
+        if (!inAnimationName || !outAnimationName)
+            return
+
+        let isAnimating, hasEntered  = false
+
         const observerOptions = {
             root:       options.inView.root,
             rootMargin: options.inView.offset,
             threshold:  options.inView.threshold
         }
 
-        const callback = (entries) => {
-            entries.forEach((entry) => {entry.isIntersecting ? enter.call(this) : exit.call(this)})
-        }
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (inAnimationName && entry.isIntersecting && !isAnimating && !hasEntered)
+                {
+                    animate(item, inAnimationName, outAnimationName)
+                    hasEntered = true
+                }
+                else if (outAnimationName && !entry.isIntersecting && !isAnimating && hasEntered)
+                {
+                    animate(item, outAnimationName, inAnimationName)
+                    hasEntered = false
+                }
+            })
+        }, observerOptions)
 
-        (new IntersectionObserver(callback, observerOptions)).observe(observerElement)
+        observerElement.addEventListener('animationstart', () => {
+            isAnimating = true
+            if (hasEntered)
+                observer.unobserve(observerElement)
+        })
+
+        observerElement.addEventListener('animationend', () => {
+            item.classList.remove(options.animation.prefix + outAnimationName) // Remove out-animation onEnd
+            isAnimating = false
+            observer.observe(observerElement)
+        })
+
+        observer.observe(observerElement)
+
+        return () => {
+            hasEntered = false
+
+            if (!isAnimating)
+                observer.observe(observerElement)
+        }
     }
 
     const getPropertyClass = (type, property, el, prefix) => {
@@ -178,7 +214,7 @@ const initEffectsBundle = (opts) => {
         }
 
         el.classList.remove(...classes)
-    };
+    }
 
     const parseTimeProperty = (timeString, index = 0) => {
         return ((index + 1) * parseFloat(timeString.replace('-', '.'))).toFixed(3) + 's'
@@ -215,10 +251,8 @@ const initEffectsBundle = (opts) => {
             case 'animation':
                 const inAnimationName  = getFxValueByPrefix(el, trigger + options.infix.in)
                 const outAnimationName = getFxValueByPrefix(el, trigger + options.infix.out)
-                const inAnimation  = inAnimationName  ? () => animate(item, inAnimationName, outAnimationName) : () => {}
-                const outAnimation = outAnimationName ? () => animate(item, outAnimationName, inAnimationName) : () => {}
 
-                animateInView(el, inAnimation, outAnimation)
+                animateInView(el, item, inAnimationName, outAnimationName)
                 break
 
             case 'effect':
