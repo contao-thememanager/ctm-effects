@@ -3,3 +3,6 @@
 /docs export-ignore
 /tests export-ignore
 /bin export-ignore
+/assets export-ignore
+/package.json export-ignore
+/esbuild.config.js export-ignore

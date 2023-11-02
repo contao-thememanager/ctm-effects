@@ -1,0 +1,23 @@
+$anim-flipout: (
+  'flipOutX': (
+    30:     ( transform: perspective(400px) rotate3d(1, 0, 0, -20deg) ),
+    100:    ( transform: perspective(400px) rotate3d(1, 0, 0, 90deg), opacity: 0 ),
+  ),
+  'flipOutY': (
+    30:     ( transform: perspective(400px) rotate3d(0, 1, 0, -15deg) ),
+    100:    ( transform: perspective(400px) rotate3d(0, 1, 0, 90deg), opacity: 0 ),
+  )
+);
+
+.#{$-anim-prefix}flipOutX,
+.#{$-anim-prefix}flipOutY, {
+  animation-duration: calc(var(--fxa-t) * 0.75);
+  backface-visibility: visible !important;
+  transform: perspective(400px);
+}
+
+@each $name, $map in $anim-flipout {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}

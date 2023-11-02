@@ -1,0 +1,49 @@
+$anim-bouncein: (
+  'bounceIn': (
+    props:  ( animation-duration: calc(var(--fxa-t) * 0.75) ),
+    0:      ( transform: scale3d(0.3, 0.3, 0.3), opacity: 0 ),
+    20:     ( transform: scale3d(1.1, 1.1, 1.1) ),
+    40:     ( transform: scale3d(0.9, 0.9, 0.9) ),
+    60:     ( transform: scale3d(1.03, 1.03, 1.03), opacity: 1 ),
+    80:     ( transform: scale3d(0.97, 0.97, 0.97) ),
+    100:    ( transform: scale3d(1, 1, 1) ),
+  ),
+  'bounceInDown': (
+    0:      ( transform: translate3d(0, -3000px, 0) scaleY(3), opacity: 0 ),
+    60:     ( transform: translate3d(0, 25px, 0) scaleY(0.9), opacity: 1),
+    75:     ( transform: translate3d(0, -10px, 0) scaleY(0.95) ),
+    90:     ( transform: translate3d(0, 5px, 0) scaleY(0.985) ),
+    100:    ( transform: translate3d(0, 0, 0) )
+  ),
+  'bounceInLeft': (
+    0:      ( transform: translate3d(-3000px, 0, 0) scaleX(3), opacity: 0 ),
+    60:     ( transform: translate3d(25px, 0, 0) scaleX(1), opacity: 1),
+    75:     ( transform: translate3d(-10px, 0, 0) scaleX(0.98) ),
+    90:     ( transform: translate3d(5px, 0, 0) scaleX(0.995) ),
+    100:    ( transform: translate3d(0, 0, 0) )
+  ),
+  'bounceInRight': (
+    0:      ( transform: translate3d(3000px, 0, 0) scaleX(3), opacity: 0 ),
+    60:     ( transform: translate3d(-25px, 0, 0) scaleX(1), opacity: 1),
+    75:     ( transform: translate3d(10px, 0, 0) scaleX(0.98) ),
+    90:     ( transform: translate3d(-5px, 0, 0) scaleX(0.995) ),
+    100:    ( transform: translate3d(0, 0, 0) )
+  ),
+  'bounceInUp': (
+    0:      ( transform: translate3d(0, 3000px, 0) scaleY(5), opacity: 0 ),
+    60:     ( transform: translate3d(0, -20px, 0) scaleY(0.9), opacity: 1),
+    75:     ( transform: translate3d(0, 10px, 0) scaleY(0.95) ),
+    90:     ( transform: translate3d(0, -5px, 0) scaleY(0.985) ),
+    100:    ( transform: translate3d(0, 0, 0) )
+  )
+);
+
+[class*="#{$-anim-prefix}bounceIn"] {
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@each $name, $map in $anim-bouncein {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}

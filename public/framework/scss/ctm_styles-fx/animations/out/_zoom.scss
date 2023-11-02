@@ -1,0 +1,12 @@
+$anim-zoomout: (
+  'zoomOut': (
+    50:   ( transform: scale3d(0.3, 0.3, 0.3), opacity: 0 ),
+    100:  ( opacity: 0 )
+  )
+);
+
+@each $name, $map in $anim-zoomout {
+  .#{$-anim-prefix}#{$name} {
+    @include ctm-animation($name, $map);
+  }
+}

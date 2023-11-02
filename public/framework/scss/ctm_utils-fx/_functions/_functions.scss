@@ -1,0 +1,46 @@
+$arg-iterator: 0;
+
+@function process-arguments($args...) {
+
+  @if length($args) == 1 {
+    $arg: nth($args, 1);
+
+    @return $arg;
+  }
+
+  $new-map: ();
+
+  @each $map in $args {
+
+    @each $key, $val in $map {
+
+      @if not map-has-key($new-map, $key) {
+        $new-map: map-merge($new-map, ($key: $val))
+      }
+    }
+  }
+
+  $arg-iterator: $arg-iterator + 1;
+
+  @return map-merge($new-map, (name: 'argument-#{$arg-iterator}'))
+}
+
+@function keyframe-percentage($value) {
+
+  @if type-of($value) == 'number' {
+
+    @if $value == 100 {
+      @return 'to';
+    }
+
+    @if unit($value) != '%' {
+      @return $value * 1%;
+    }
+  }
+
+  @if $value == 'from' {
+    @return 0%;
+  }
+
+  @return $value;
+}
