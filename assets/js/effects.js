@@ -147,10 +147,9 @@ const initEffectsBundle = (opts) => {
 
     const getInfixClass = (type, el, prefix, infix) => {
         const abbreviation = options[type].abbr
-        const inner = options.infix[infix]
         const triggerPrefix = options.trigger + prefix
 
-       return triggerPrefix + abbreviation + inner + getFxValueByPrefix(el, triggerPrefix + abbreviation + inner)
+        return triggerPrefix + abbreviation + infix + getFxValueByPrefix(el, triggerPrefix + abbreviation + infix)
     }
 
     const removeInitClasses = (type, el, prefix = '') => {
