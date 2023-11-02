@@ -259,6 +259,57 @@
     </children>
   </archive>
 
+  <archive identifier="gLayout">
+    <field title="id">510</field>
+    <field title="title">Layout</field>
+    <field title="identifier">gLayout</field>
+    <field title="groupAlias">Global</field>
+    <field title="sorting">5000</field>
+    <children>
+      <child alias="animationIn">
+        <field title="pid">510</field>
+        <field title="sorting">10100</field>
+        <field title="alias">animationIn</field>
+        <field title="title">Animation &amp;#40;IN&amp;#41;</field>
+        <field title="description">Defines the type of in animation.</field>
+        <field title="cssClasses">a:27:{i:0;a:2:{s:3:"key";s:17:"fx_anim-in-fadeIn";s:5:"value";s:7:"Fade In";}i:1;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInDown";s:5:"value";s:12:"Fade In Down";}i:2;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInDownBig";s:5:"value";s:16:"Fade In Down Big";}i:3;a:2:{s:3:"key";s:21:"fx_anim-in-fadeInLeft";s:5:"value";s:12:"Fade In Left";}i:4;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInLeftBig";s:5:"value";s:16:"Fade In Left Big";}i:5;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInRight";s:5:"value";s:13:"Fade In Right";}i:6;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInRightBig";s:5:"value";s:17:"Fade In Right Big";}i:7;a:2:{s:3:"key";s:19:"fx_anim-in-fadeInUp";s:5:"value";s:10:"Fade In Up";}i:8;a:2:{s:3:"key";s:22:"fx_anim-in-fadeInUpBig";s:5:"value";s:14:"Fade In Up Big";}i:9;a:2:{s:3:"key";s:24:"fx_anim-in-fadeInTopLeft";s:5:"value";s:16:"Fade In Top Left";}i:10;a:2:{s:3:"key";s:25:"fx_anim-in-fadeInTopRight";s:5:"value";s:17:"Fade In Top Right";}i:11;a:2:{s:3:"key";s:27:"fx_anim-in-fadeInBottomLeft";s:5:"value";s:19:"Fade In Bottom Left";}i:12;a:2:{s:3:"key";s:28:"fx_anim-in-fadeInBottomRight";s:5:"value";s:20:"Fade In Bottom Right";}i:13;a:2:{s:3:"key";s:19:"fx_anim-in-bounceIn";s:5:"value";s:9:"Bounce In";}i:14;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInDown";s:5:"value";s:14:"Bounce In Down";}i:15;a:2:{s:3:"key";s:23:"fx_anim-in-bounceInLeft";s:5:"value";s:14:"Bounce In Left";}i:16;a:2:{s:3:"key";s:24:"fx_anim-in-bounceInRight";s:5:"value";s:15:"Bounce In Right";}i:17;a:2:{s:3:"key";s:21:"fx_anim-in-bounceInUp";s:5:"value";s:12:"Bounce In Up";}i:18;a:2:{s:3:"key";s:18:"fx_anim-in-flipInX";s:5:"value";s:9:"Flip In X";}i:19;a:2:{s:3:"key";s:18:"fx_anim-in-flipInY";s:5:"value";s:9:"Flip In Y";}i:20;a:2:{s:3:"key";s:17:"fx_anim-in-zoomIn";s:5:"value";s:7:"Zoom In";}i:21;a:2:{s:3:"key";s:21:"fx_anim-in-loopUpDown";s:5:"value";s:13:"Loop: Up Down";}i:22;a:2:{s:3:"key";s:24:"fx_anim-in-loopLeftRight";s:5:"value";s:16:"Loop: Left Right";}i:23;a:2:{s:3:"key";s:20:"fx_anim-in-loopInOut";s:5:"value";s:12:"Loop: In Out";}i:24;a:2:{s:3:"key";s:21:"fx_anim-in-loopRotate";s:5:"value";s:12:"Loop: Rotate";}i:25;a:2:{s:3:"key";s:28:"fx_anim-in-loopRotateReverse";s:5:"value";s:20:"Loop: Rotate Reverse";}i:26;a:2:{s:3:"key";s:21:"fx_anim-in-loopCircle";s:5:"value";s:12:"Loop: Circle";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendArticle">1</field></child>
+      <child alias="animationOut">
+        <field title="pid">510</field>
+        <field title="sorting">10200</field>
+        <field title="alias">animationOut</field>
+        <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
+        <field title="description">Defines the type of out animation.</field>
+        <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendArticle">1</field></child>
+      <child alias="animationDelay">
+        <field title="pid">1000</field>
+        <field title="sorting">10300</field>
+        <field title="alias">animationDelay</field>
+        <field title="title">Animation Delay</field>
+        <field title="description">Defines how long to wait until the animation is performed.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dly-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dly-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dly-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dly-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dly-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendArticle">1</field></child>
+      <child alias="animationDuration">
+        <field title="pid">510</field>
+        <field title="sorting">10400</field>
+        <field title="alias">animationDuration</field>
+        <field title="title">Animation Duration</field>
+        <field title="description">Defines the duration of the animation.</field>
+        <field title="cssClasses">a:5:{i:0;a:2:{s:3:"key";s:12:"anim-dtn-0-5";s:5:"value";s:7:"0.5 Sec";}i:1;a:2:{s:3:"key";s:10:"anim-dtn-1";s:5:"value";s:5:"1 Sec";}i:2;a:2:{s:3:"key";s:12:"anim-dtn-1-5";s:5:"value";s:7:"1.5 Sec";}i:3;a:2:{s:3:"key";s:10:"anim-dtn-2";s:5:"value";s:5:"2 Sec";}i:4;a:2:{s:3:"key";s:10:"anim-dtn-3";s:5:"value";s:5:"3 Sec";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendArticle">1</field></child>
+    </children>
+  </archive>
+
   <archive identifier="cLayout">
     <field title="identifier">cLayout</field>
     <children>
@@ -1119,7 +1170,7 @@
         <field title="extendModule">1</field>
         <field title="modules">a:10:{i:0;s:5:"login";i:1;s:12:"personalData";i:2;s:12:"registration";i:3;s:14:"changePassword";i:4;s:12:"lostPassword";i:5;s:12:"closeAccount";i:6;s:6:"search";i:7;s:8:"quicknav";i:8;s:9:"quicklink";i:9;s:9:"subscribe";}</field>
       </child>
-      
+
       <child alias="animationInList">
         <field title="pid">2090</field>
         <field title="sorting">10100</field>
