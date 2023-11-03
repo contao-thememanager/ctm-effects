@@ -237,8 +237,11 @@ const initEffectsBundle = (opts) => {
         switch (property)
         {
             case 'delay':
-            case 'duration':
                 item.style.setProperty(prop, parseTimeProperty(val, index))
+                break
+
+            case 'duration':
+                item.style.setProperty(prop, parseTimeProperty(val))
                 break
 
             case 'factor':
