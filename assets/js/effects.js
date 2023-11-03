@@ -1,7 +1,7 @@
-window.useCtmEffects = (inViewOffset  = "50px") => { // inViewOffset
+window.useCtmEffects = (inViewOffset  = "-150px 0 -50px 0") => { // inViewOffset
     initEffectsBundle({
         inView : { // inView
-            offset: `${inViewOffset} 10000px`
+            offset: inViewOffset
         }
     })
 }
@@ -132,12 +132,29 @@ const initEffectsBundle = (opts) => {
         })
     }
 
+    const moveObserverElement = (el) => {
+        let observer, item
+        observer = item = el
+
+        if (el.classList.contains('inside'))
+            observer = el.parentElement
+
+        else
+            item = el.querySelector(':scope > .inside')
+
+        return [observer, item]
+    }
+
     const animateInView = (observerElement, item, inAnimationName, outAnimationName) => {
 
         if (!inAnimationName && !outAnimationName)
             return
 
-        let isAnimating, hasEntered  = false
+        if (observerElement === item)
+            [observerElement, item] = moveObserverElement(observerElement)
+
+        if (!item)
+            return
 
         const observerSettings = options.inView
 
@@ -149,39 +166,19 @@ const initEffectsBundle = (opts) => {
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                if (inAnimationName && entry.isIntersecting && !isAnimating && !hasEntered)
-                {
+                if (inAnimationName && entry.isIntersecting)
                     animate(item, inAnimationName, outAnimationName)
-                    hasEntered = true
-                }
-                else if (outAnimationName && !entry.isIntersecting && !isAnimating && hasEntered)
-                {
+                else if (outAnimationName && !entry.isIntersecting)
                     animate(item, outAnimationName, inAnimationName)
-                    hasEntered = false
-                }
             })
         }, observerOptions)
 
-        observerElement.addEventListener('animationstart', () => {
-            isAnimating = true
-        })
-
-        observerElement.addEventListener('animationend', () => {
-            item.classList.remove(options.animation.prefix + outAnimationName) // Remove out-animation onEnd
-            isAnimating = false
-
+        item.addEventListener('animationend', () => {
             if (!(inAnimationName && outAnimationName) || !(outAnimationName && inAnimationName))
                 observer.disconnect();
         })
 
         observer.observe(observerElement)
-
-        return () => {
-            hasEntered = false
-
-            if (!isAnimating)
-                observer.observe(observerElement)
-        }
     }
 
     const getPropertyClass = (type, property, el, prefix) => {
