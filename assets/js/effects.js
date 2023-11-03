@@ -1,4 +1,4 @@
-window.useCtmEffects = (inViewOffset  = "-150px 0 -50px 0") => { // inViewOffset
+window.useCtmEffects = (inViewOffset  = "-15% 0% -50px 0%") => {
     initEffectsBundle({
         inView : { // inView
             offset: inViewOffset
@@ -10,11 +10,12 @@ const initEffectsBundle = (opts) => {
     const defaultOptions = {
         inView: {
             root:          null,
-            offset:        '50px 10000px',
+            offset:        '-15% 0% -50px 0%"',
             threshold:     0
         },
         trigger:           'fx_',
         list:              'c_list',
+        heading:           'c_headline',
         infix: {
             in:            '-in-',
             out:           '-out-',
@@ -106,6 +107,10 @@ const initEffectsBundle = (opts) => {
         {
             fxTrigger = fxItem = item.querySelector(':scope > .inside')
         }
+        else if (el.classList.contains(options.heading))
+        {
+            fxTrigger = fxItem = el
+        }
         else if (!item.classList.contains('inside'))
         {
             fxTrigger = item.closest('.inside')
@@ -136,11 +141,10 @@ const initEffectsBundle = (opts) => {
         let observer, item
         observer = item = el
 
-        if (el.classList.contains('inside'))
-            observer = el.parentElement
-
-        else
+        if (el.classList.contains('mod_article'))
             item = el.querySelector(':scope > .inside')
+        else
+            observer = el.parentElement
 
         return [observer, item]
     }
@@ -292,7 +296,7 @@ const initEffectsBundle = (opts) => {
                 switch (scope)
                 {
                     case 'el':
-                        if (!el.classList.contains(options.list))
+                        if (![options.list, options.heading].some(cls => el.classList.contains(cls)))
                             initItem(el, 0)
                         else
                             Array.from(el.children)?.forEach((item, index) => initItem(item, index))
