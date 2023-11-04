@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_thememanager.effects_legend">
+        <source>Effects</source>
+        <target>Effekte</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-animation-delays.0">
+        <source>$fx-animation-delays</source>
+        <target>$fx-animation-delays</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-animation-delays.1">
+        <source>Here you can enter comma-separated times that will be available within the animation delays.</source>
+        <target>Hier können Sie durch Komma getrennte Zeiten eingeben, die für Animations-Delays zur Verfügung stehen sollen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-animation-durations.0">
+        <source>$fx-animation-durations</source>
+        <target>$fx-animation-durations</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-animation-durations.1">
+        <source>Here you can enter comma-separated times that will be available within the animation durations.</source>
+        <target>Hier können Sie durch Komma getrennte Zeiten eingeben, die für Animations-Durations zur Verfügung stehen sollen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
