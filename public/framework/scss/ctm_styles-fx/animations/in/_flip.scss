@@ -19,6 +19,7 @@ $anim-flipin: (
 .#{$-anim-prefix}flipInY, {
   backface-visibility: visible !important;
   animation-timing-function: ease-in;
+  transform-origin: center;
 }
 
 @each $name, $map in $anim-flipin {
