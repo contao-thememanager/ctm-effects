@@ -14,7 +14,6 @@ $anim-flipout: (
   animation-duration: calc(var(--fxa-t) * 0.75);
   backface-visibility: visible !important;
   transform: perspective(400px);
-  transform-origin: center;
 }
 
 @each $name, $map in $anim-flipout {
