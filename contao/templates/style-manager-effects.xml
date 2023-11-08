@@ -226,7 +226,7 @@
         <field title="blankOption">1</field>
         <field title="extendArticle">1</field></child>
       <child alias="animationDelay">
-        <field title="pid">1000</field>
+        <field title="pid">510</field>
         <field title="sorting">10300</field>
         <field title="alias">animationDelay</field>
         <field title="title">Animation Delay</field>
@@ -426,7 +426,7 @@
       </child>
 
       <child alias="effectForm">
-        <field title="pid">2060</field>
+        <field title="pid">1000</field>
         <field title="sorting">11100</field>
         <field title="alias">effectForm</field>
         <field title="title">Effect</field>
@@ -439,7 +439,7 @@
         <field title="contentElements">a:1:{i:0;s:4:"form";}</field>
       </child>
       <child alias="effectFactorForm">
-        <field title="pid">2060</field>
+        <field title="pid">1000</field>
         <field title="sorting">11200</field>
         <field title="alias">effectFactorForm</field>
         <field title="title">Effect Factor</field>
@@ -451,7 +451,7 @@
         <field title="contentElements">a:1:{i:0;s:4:"form";}</field>
       </child>
       <child alias="effectDurationForm">
-        <field title="pid">2060</field>
+        <field title="pid">1000</field>
         <field title="sorting">11300</field>
         <field title="alias">effectDurationForm</field>
         <field title="title">Effect Duration</field>
@@ -463,7 +463,7 @@
         <field title="contentElements">a:1:{i:0;s:4:"form";}</field>
       </child>
       <child alias="effectEasingForm">
-        <field title="pid">2060</field>
+        <field title="pid">1000</field>
         <field title="sorting">11400</field>
         <field title="alias">effectEasingForm</field>
         <field title="title">Effect Easing</field>
