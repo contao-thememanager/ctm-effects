@@ -12,8 +12,8 @@ use ContaoThemeManager\Core\StyleManager\StyleManagerXML;
  */
 class EffectsConfigGenerator extends ConfigGenerator
 {
-    private array $delayContainers    = ['' => [], 'txt_' => [], 'img_' => [], 'ico_' => [], 'lnk_' => []];
-    private array $durationContainers = ['' => [], 'txt_' => [], 'img_' => [], 'ico_' => [], 'lnk_' => []];
+    private array $delayContainers    = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
+    private array $durationContainers = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
 
     /**
      * Gets all aspect ratios from the ThemeManager configuration and adds it to the style-manager-tm-config.xml
@@ -49,7 +49,9 @@ class EffectsConfigGenerator extends ConfigGenerator
             ->addChild('animationDuration',     $this->durationContainers['']);
         $xml->addGroup('cLayout')
             ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers['']);
+            ->addChild('animationDuration',     $this->durationContainers[''])
+            ->addChild('animationDelayForm',    $this->delayContainers['frm_'])
+            ->addChild('animationDurationForm', $this->durationContainers['frm_']);
         $xml->addGroup('eGridList')
             ->addChild('animationDelayList',    $this->delayContainers[''])
             ->addChild('animationDurationList', $this->durationContainers['']);

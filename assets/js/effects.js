@@ -32,8 +32,7 @@ const initEffectsBundle = (opts) => {
             },
             img: {
                 animation: '.image_container',
-                effect:    '.image_container',
-
+                effect:    '.image_container'
             },
             ico: {
                 animation: '.c_icon',
@@ -42,6 +41,10 @@ const initEffectsBundle = (opts) => {
             lnk: {
                 animation: '.c_link',
                 effect:    '.c_link'
+            },
+            frm: {
+                animation: 'form',
+                effect:    'form'
             }
         },
         animation: {
