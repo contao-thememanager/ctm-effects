@@ -388,10 +388,10 @@
         <field title="extendContentElement">1</field>
         <field title="contentElements">a:1:{i:0;s:4:"form";}</field>
       </child>
-      <child alias="animationFormOut">
+      <child alias="animationOutForm">
         <field title="pid">1000</field>
         <field title="sorting">10200</field>
-        <field title="alias">animationFormOut</field>
+        <field title="alias">animationOutForm</field>
         <field title="title">Animation &amp;#40;OUT&amp;#41;</field>
         <field title="description">Defines the type of out animation.</field>
         <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:23:"fx_frm_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:27:"fx_frm_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:30:"fx_frm_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:27:"fx_frm_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:30:"fx_frm_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:28:"fx_frm_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:31:"fx_frm_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:25:"fx_frm_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:28:"fx_frm_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:30:"fx_frm_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:31:"fx_frm_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:33:"fx_frm_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:34:"fx_frm_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:25:"fx_frm_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:29:"fx_frm_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:29:"fx_frm_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:30:"fx_frm_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:27:"fx_frm_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:24:"fx_frm_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:24:"fx_frm_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:23:"fx_frm_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
