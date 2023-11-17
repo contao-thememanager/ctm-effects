@@ -110,6 +110,11 @@ const initEffectsBundle = (opts) => {
         {
             fxTrigger = fxItem = item.querySelector(':scope > .inside')
         }
+        else if (item.classList.contains('image_container'))
+        {
+            fxTrigger = item
+            fxItem = item.querySelector('img')
+        }
         else if (el.classList.contains(options.heading))
         {
             fxTrigger = fxItem = el
