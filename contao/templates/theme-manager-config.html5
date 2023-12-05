@@ -1,7 +1,7 @@
 <?php return [
     'palettes' => [
         'default'  =>
-            '{effects_legend:hide},fx-animation-delays,fx-animation-durations;'
+            '{effects_legend:hide},fx-animation-delays,fx-animation-durations,fx-effect-factors,fx-effect-durations;'
     ],
     'fields'   => [
         // Effects
@@ -9,13 +9,25 @@
             'default'                 => '0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.5,0.75,1,1.5,2,3',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['fx-animation-delays'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.5,0.75,1,1.5,2,3', 'maxlength'=>255, 'tl_class'=>'clr'],
+            'eval'                    => ['placeholder'=>'0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.5,0.75,1,1.5,2,3', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
         ],
         'fx-animation-durations' => [
             'default'                 => '0.5,1,1.5,2,3',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['fx-animation-durations'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'0.5,1,1.5,2,3', 'maxlength'=>255, 'tl_class'=>'clr'],
+            'eval'                    => ['placeholder'=>'0.5,1,1.5,2,3', 'maxlength'=>255, 'tl_class'=>'w50'],
+        ],
+        'fx-effect-factors' => [
+            'default'                 => '0.1,0.25,0.5,0.75,1.25,1.5,2,2.5,3,3.5,4,4.5,5',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['fx-effect-factors'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'0.1,0.25,0.5,0.75,1.25,1.5,2,2.5,3,3.5,4,4.5,5', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
+        ],
+        'fx-effect-durations' => [
+            'default'                 => '0.5,1,1.5,2,2.5,3,4,5,6,10,15,20,30,40',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['fx-effect-durations'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'0.5,1,1.5,2,2.5,3,4,5,6,10,15,20,30,40', 'maxlength'=>255, 'tl_class'=>'w50'],
         ]
     ]
 ];

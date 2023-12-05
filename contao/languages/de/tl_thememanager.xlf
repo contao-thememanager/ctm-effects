@@ -21,6 +21,22 @@
         <source>Here you can enter comma-separated times that will be available within the animation durations.</source>
         <target>Hier können Sie durch Komma getrennte Zeiten eingeben, die für Animations-Durations zur Verfügung stehen sollen.</target>
       </trans-unit>
+      <trans-unit id="tl_thememanager.fx-effect-factors.0">
+        <source>$fx-effect-factors</source>
+        <target>$fx-effect-factors</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-effect-factors.1">
+        <source>Here you can enter comma-separated factors that will be available within the effect factors.</source>
+        <target>Hier können Sie durch Komma getrennte Faktoren eingeben, die für Effekt-Factors zur Verfügung stehen sollen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-effect-durations.0">
+        <source>$fx-effect-durations</source>
+        <target>$fx-effect-durations</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.fx-animation-durations.1">
+        <source>Here you can enter comma-separated times that will be available within the effect durations.</source>
+        <target>Hier können Sie durch Komma getrennte Zeiten eingeben, die für Effekt-Durations zur Verfügung stehen sollen.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -12,16 +12,15 @@ use ContaoThemeManager\Core\StyleManager\StyleManagerXML;
  */
 class EffectsConfigGenerator extends ConfigGenerator
 {
-    private array $delayContainers    = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
-    private array $durationContainers = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
+    private array $animDelayContainers    = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
+    private array $animDurationContainers = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
+    private array $effectFactorContainers = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
+    private array $effectDurationContainers = [''=>[], 'txt_'=>[], 'img_'=>[], 'ico_'=>[], 'lnk_'=>[], 'frm_'=>[]];
 
-    /**
-     * Gets all aspect ratios from the ThemeManager configuration and adds it to the style-manager-tm-config.xml
-     */
     public function generateOptions(array $configVars, StyleManagerXML $xml): void
     {
         self::setEffectOptions(
-            $this->delayContainers,
+            $this->animDelayContainers,
             $configVars,
             'fx-animation-delays',
             'anim-dly-',
@@ -30,7 +29,7 @@ class EffectsConfigGenerator extends ConfigGenerator
         );
 
         self::setEffectOptions(
-            $this->durationContainers,
+            $this->animDurationContainers,
             $configVars,
             'fx-animation-durations',
             'anim-dtn-',
@@ -38,40 +37,78 @@ class EffectsConfigGenerator extends ConfigGenerator
             [0.5,1,1.5,2,2.5,3]
         );
 
+        self::setEffectOptions(
+            $this->effectFactorContainers,
+            $configVars,
+            'fx-effect-factors',
+            'efc-fct-',
+            '',
+            [0.1,0.25,0.5,0.75,1.25,1.5,2,2.5,3,3.5,4,4.5,5]
+        );
+
+        self::setEffectOptions(
+            $this->effectDurationContainers,
+            $configVars,
+            'fx-effect-durations',
+            'efc-dtn-',
+            ' Sec',
+            [0.5,1,1.5,2,2.5,3,4,5,6,10,15,20,30,40]
+        );
+
         $xml->addGroup('gHeadline')
-            ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers['']);
+            ->addChild('animationDelay',        $this->animDelayContainers[''])
+            ->addChild('animationDuration',     $this->animDurationContainers[''])
+            ->addChild('effectFactor',          $this->effectFactorContainers[''])
+            ->addChild('effectDuration',        $this->effectDurationContainers['']);
         $xml->addGroup('gPagination')
-            ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers['']);
+            ->addChild('animationDelay',        $this->animDelayContainers[''])
+            ->addChild('animationDuration',     $this->animDurationContainers['']);
         $xml->addGroup('gLayout')
-            ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers['']);
+            ->addChild('animationDelay',        $this->animDelayContainers[''])
+            ->addChild('animationDuration',     $this->animDurationContainers['']);
         $xml->addGroup('cLayout')
-            ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers[''])
-            ->addChild('animationDelayForm',    $this->delayContainers['frm_'])
-            ->addChild('animationDurationForm', $this->durationContainers['frm_']);
+            ->addChild('animationDelay',        $this->animDelayContainers[''])
+            ->addChild('animationDuration',     $this->animDurationContainers[''])
+            ->addChild('animationDelayForm',    $this->animDelayContainers['frm_'])
+            ->addChild('animationDurationForm', $this->animDurationContainers['frm_'])
+            ->addChild('effectFactor',          $this->effectFactorContainers[''])
+            ->addChild('effectDuration',        $this->effectDurationContainers[''])
+            ->addChild('effectFactorForm',      $this->effectFactorContainers['frm_'])
+            ->addChild('effectDurationForm',    $this->effectDurationContainers['frm_']);
         $xml->addGroup('eGridList')
-            ->addChild('animationDelayList',    $this->delayContainers[''])
-            ->addChild('animationDurationList', $this->durationContainers['']);
+            ->addChild('animationDelayList',    $this->animDelayContainers[''])
+            ->addChild('animationDurationList', $this->animDurationContainers[''])
+            ->addChild('effectFactorList',      $this->effectFactorContainers[''])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['']);
         $xml->addGroup('eList')
-            ->addChild('animationDelayList',    $this->delayContainers[''])
-            ->addChild('animationDurationList', $this->durationContainers['']);
+            ->addChild('animationDelayList',    $this->animDelayContainers[''])
+            ->addChild('animationDurationList', $this->animDurationContainers[''])
+            ->addChild('effectFactorList',      $this->effectFactorContainers[''])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['']);
         $xml->addGroup('eText')
-            ->addChild('animationDelayList',    $this->delayContainers['txt_'])
-            ->addChild('animationDurationList', $this->durationContainers['txt_']);
+            ->addChild('animationDelayList',    $this->animDelayContainers['txt_'])
+            ->addChild('animationDurationList', $this->animDurationContainers['txt_'])
+            ->addChild('effectFactorList',      $this->effectFactorContainers['txt_'])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['txt_']);
         $xml->addGroup('eImage')
-            ->addChild('animationDelayList',    $this->delayContainers['img_'])
-            ->addChild('animationDurationList', $this->durationContainers['img_']);
+            ->addChild('animationDelayList',    $this->animDelayContainers['img_'])
+            ->addChild('animationDurationList', $this->animDurationContainers['img_'])
+            ->addChild('effectFactorList',      $this->effectFactorContainers['img_'])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['img_']);
         $xml->addGroup('eIcon')
-            ->addChild('animationDelayList',    $this->delayContainers['ico_'])
-            ->addChild('animationDurationList', $this->durationContainers['ico_']);
+            ->addChild('animationDelayList',    $this->animDelayContainers['ico_'])
+            ->addChild('animationDurationList', $this->animDurationContainers['ico_'])
+            ->addChild('effectFactorList',      $this->effectFactorContainers['ico_'])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['ico_']);
         $xml->addGroup('eLink')
-            ->addChild('animationDelay',        $this->delayContainers[''])
-            ->addChild('animationDuration',     $this->durationContainers[''])
-            ->addChild('animationDelayList',    $this->delayContainers['lnk_'])
-            ->addChild('animationDurationList', $this->durationContainers['lnk_']);
+            ->addChild('animationDelay',        $this->animDelayContainers[''])
+            ->addChild('animationDuration',     $this->animDurationContainers[''])
+            ->addChild('animationDelayList',    $this->animDelayContainers['lnk_'])
+            ->addChild('animationDurationList', $this->animDurationContainers['lnk_'])
+            ->addChild('effectFactor',          $this->effectFactorContainers[''])
+            ->addChild('effectDuration',        $this->effectDurationContainers[''])
+            ->addChild('effectFactorList',      $this->effectFactorContainers['lnk_'])
+            ->addChild('effectDurationList',    $this->effectDurationContainers['lnk_']);
     }
 
     private function setEffectOptions(array &$containers, array $configVars, string $configKey, string $classPrefix = '', string $labelSuffix = '', array $defaults = []): void
