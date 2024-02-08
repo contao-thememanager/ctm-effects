@@ -1,7 +1,8 @@
 <?php return [
     'palettes' => [
         'default'  =>
-            '{effects_legend:hide},fx-animation-delays,fx-animation-durations,fx-effect-factors,fx-effect-durations;'
+            '{effects_animations_legend:hide ctm-group palette-group[effects_header]},fx-animation-delays,fx-animation-durations;' .
+            '{effects_effects_legend:hide},fx-effect-factors,fx-effect-durations;'
     ],
     'fields'   => [
         // Effects

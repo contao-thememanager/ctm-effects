@@ -1,10 +1,19 @@
 <?xml version="1.0" ?><xliff version="1.1">
   <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en" target-language="de">
     <body>
-      <trans-unit id="tl_thememanager.effects_legend">
+      <trans-unit id="tl_thememanager.effects_header">
+        <source>Extension: Effects</source>
+        <target>Erweiterung: Effekte</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.effects_animations_legend">
+        <source>Animations</source>
+        <target>Animationen</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.effects_effects_legend">
         <source>Effects</source>
         <target>Effekte</target>
       </trans-unit>
+
       <trans-unit id="tl_thememanager.fx-animation-delays.0">
         <source>$fx-animation-delays</source>
         <target>$fx-animation-delays</target>
