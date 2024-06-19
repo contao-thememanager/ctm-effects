@@ -214,7 +214,10 @@
         <field title="cssClass">separator</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field></child>
+        <field title="extendArticle">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
       <child alias="animationOut">
         <field title="pid">510</field>
         <field title="sorting">10200</field>
@@ -224,7 +227,10 @@
         <field title="cssClasses">a:21:{i:0;a:2:{s:3:"key";s:19:"fx_anim-out-fadeOut";s:5:"value";s:8:"Fade Out";}i:1;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutDown";s:5:"value";s:13:"Fade Out Down";}i:2;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutDownBig";s:5:"value";s:17:"Fade Out Down Big";}i:3;a:2:{s:3:"key";s:23:"fx_anim-out-fadeOutLeft";s:5:"value";s:13:"Fade Out Left";}i:4;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutLeftBig";s:5:"value";s:17:"Fade Out Left Big";}i:5;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutRight";s:5:"value";s:14:"Fade Out Right";}i:6;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutRightBig";s:5:"value";s:18:"Fade Out Right Big";}i:7;a:2:{s:3:"key";s:21:"fx_anim-out-fadeOutUp";s:5:"value";s:11:"Fade Out Up";}i:8;a:2:{s:3:"key";s:24:"fx_anim-out-fadeOutUpBig";s:5:"value";s:15:"Fade Out Up Big";}i:9;a:2:{s:3:"key";s:26:"fx_anim-out-fadeOutTopLeft";s:5:"value";s:17:"Fade Out Top Left";}i:10;a:2:{s:3:"key";s:27:"fx_anim-out-fadeOutTopRight";s:5:"value";s:18:"Fade Out Top Right";}i:11;a:2:{s:3:"key";s:29:"fx_anim-out-fadeOutBottomLeft";s:5:"value";s:20:"Fade Out Bottom Left";}i:12;a:2:{s:3:"key";s:30:"fx_anim-out-fadeOutBottomRight";s:5:"value";s:21:"Fade Out Bottom Right";}i:13;a:2:{s:3:"key";s:21:"fx_anim-out-bounceOut";s:5:"value";s:10:"Bounce Out";}i:14;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutDown";s:5:"value";s:15:"Bounce Out Down";}i:15;a:2:{s:3:"key";s:25:"fx_anim-out-bounceOutLeft";s:5:"value";s:15:"Bounce Out Left";}i:16;a:2:{s:3:"key";s:26:"fx_anim-out-bounceOutRight";s:5:"value";s:16:"Bounce Out Right";}i:17;a:2:{s:3:"key";s:23:"fx_anim-out-bounceOutUp";s:5:"value";s:13:"Bounce Out Up";}i:18;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutX";s:5:"value";s:10:"Flip Out X";}i:19;a:2:{s:3:"key";s:20:"fx_anim-out-flipOutY";s:5:"value";s:10:"Flip Out Y";}i:20;a:2:{s:3:"key";s:19:"fx_anim-out-zoomOut";s:5:"value";s:8:"Zoom Out";}}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field></child>
+        <field title="extendArticle">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
       <child alias="animationDelay">
         <field title="pid">510</field>
         <field title="sorting">10300</field>
@@ -234,7 +240,10 @@
         <field title="cssClasses">a:0:{}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field></child>
+        <field title="extendArticle">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
       <child alias="animationDuration">
         <field title="pid">510</field>
         <field title="sorting">10400</field>
@@ -244,7 +253,59 @@
         <field title="cssClasses">a:0:{}</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
-        <field title="extendArticle">1</field></child>
+        <field title="extendArticle">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
+      <child alias="effect">
+        <field title="pid">10</field>
+        <field title="sorting">11100</field>
+        <field title="alias">effect</field>
+        <field title="title">Effect</field>
+        <field title="description">Defines the type of effect.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:19:"fx_efc-hover-zoomIn";s:5:"value";s:14:"Hover: Zoom In";}i:1;a:2:{s:3:"key";s:20:"fx_efc-hover-zoomOut";s:5:"value";s:15:"Hover: Zoom Out";}i:2;a:2:{s:3:"key";s:20:"fx_efc-hover-slideUp";s:5:"value";s:15:"Hover: Slide Up";}i:3;a:2:{s:3:"key";s:23:"fx_efc-hover-slideRight";s:5:"value";s:18:"Hover: Slide Right";}i:4;a:2:{s:3:"key";s:22:"fx_efc-hover-slideDown";s:5:"value";s:17:"Hover: Slide Down";}i:5;a:2:{s:3:"key";s:22:"fx_efc-hover-slideLeft";s:5:"value";s:17:"Hover: Slide Left";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
+      <child alias="effectFactor">
+        <field title="pid">10</field>
+        <field title="sorting">11200</field>
+        <field title="alias">effectFactor</field>
+        <field title="title">Effect Factor</field>
+        <field title="description">The factor allows you to specify how strong the effect is.</field>
+        <field title="cssClasses">a:0:{}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
+      <child alias="effectDuration">
+        <field title="pid">10</field>
+        <field title="sorting">11300</field>
+        <field title="alias">effectDuration</field>
+        <field title="title">Effect Duration</field>
+        <field title="description">Defines the duration of the effect.</field>
+        <field title="cssClasses">a:0:{}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
+      <child alias="effectEasing">
+        <field title="pid">10</field>
+        <field title="sorting">11400</field>
+        <field title="alias">effectEasing</field>
+        <field title="title">Effect Easing</field>
+        <field title="description">Defines the timing function of the transition.</field>
+        <field title="cssClasses">a:4:{i:0;a:2:{s:3:"key";s:12:"efc-eas-ease";s:5:"value";s:4:"ease";}i:1;a:2:{s:3:"key";s:15:"efc-eas-ease-in";s:5:"value";s:7:"ease-in";}i:2;a:2:{s:3:"key";s:16:"efc-eas-ease-out";s:5:"value";s:8:"ease-out";}i:3;a:2:{s:3:"key";s:19:"efc-eas-ease-in-out";s:5:"value";s:11:"ease-in-out";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:1:{i:0;s:12:"wrapperStart";}</field>
+      </child>
     </children>
   </archive>
 
@@ -263,7 +324,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -278,7 +339,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -293,7 +354,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -308,7 +369,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -325,7 +386,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -340,7 +401,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -355,7 +416,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>
@@ -370,7 +431,7 @@
         <field title="blankOption">1</field>
         <field title="passToTemplate">1</field>
         <field title="extendContentElement">1</field>
-        <field title="contentElements">a:29:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:12:"wrapperStart";i:16;s:19:"wrapperStartContent";i:17;s:11:"sliderStart";i:18;s:9:"hyperlink";i:19;s:5:"image";i:20;s:7:"gallery";i:21;s:6:"player";i:22;s:7:"youtube";i:23;s:5:"vimeo";i:24;s:8:"download";i:25;s:9:"downloads";i:26;s:5:"alias";i:27;s:6:"teaser";i:28;s:8:"comments";}</field>
+        <field title="contentElements">a:28:{i:0;s:8:"headline";i:1;s:4:"text";i:2;s:4:"list";i:3;s:5:"table";i:4;s:4:"code";i:5;s:8:"markdown";i:6;s:14:"rsce_icon_text";i:7;s:15:"rsce_image_text";i:8;s:9:"rsce_text";i:9;s:9:"rsce_icon";i:10;s:19:"rsce_hyperlink_list";i:11;s:19:"rsce_icon_text_list";i:12;s:15:"rsce_image_list";i:13;s:20:"rsce_image_text_list";i:14;s:14:"rsce_text_list";i:15;s:19:"wrapperStartContent";i:16;s:11:"sliderStart";i:17;s:9:"hyperlink";i:18;s:5:"image";i:19;s:7:"gallery";i:20;s:6:"player";i:21;s:7:"youtube";i:22;s:5:"vimeo";i:23;s:8:"download";i:24;s:9:"downloads";i:25;s:5:"alias";i:26;s:6:"teaser";i:27;s:8:"comments";}</field>
         <field title="extendModule">1</field>
         <field title="modules">a:37:{i:0;s:10:"navigation";i:1;s:9:"customnav";i:2;s:10:"breadcrumb";i:3;s:8:"quicknav";i:4;s:9:"quicklink";i:5;s:7:"booknav";i:6;s:10:"articlenav";i:7;s:7:"sitemap";i:8;s:5:"login";i:9;s:6:"logout";i:10;s:12:"personalData";i:11;s:12:"registration";i:12;s:14:"changePassword";i:13;s:12:"lostPassword";i:14;s:12:"closeAccount";i:15;s:6:"search";i:16;s:8:"comments";i:17;s:7:"listing";i:18;s:11:"articlelist";i:19;s:11:"randomImage";i:20;s:9:"rssReader";i:21;s:8:"template";i:22;s:7:"faqlist";i:23;s:9:"faqreader";i:24;s:7:"faqpage";i:25;s:8:"newslist";i:26;s:10:"newsreader";i:27;s:11:"newsarchive";i:28;s:8:"newsmenu";i:29;s:8:"calendar";i:30;s:11:"eventreader";i:31;s:9:"eventlist";i:32;s:9:"eventmenu";i:33;s:9:"subscribe";i:34;s:11:"unsubscribe";i:35;s:14:"newsletterlist";i:36;s:16:"newsletterreader";}</field>
       </child>

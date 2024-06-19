@@ -65,7 +65,9 @@ class EffectsConfigGenerator extends ConfigGenerator
             ->addChild('animationDuration',     $this->animDurationContainers['']);
         $xml->addGroup('gLayout')
             ->addChild('animationDelay',        $this->animDelayContainers[''])
-            ->addChild('animationDuration',     $this->animDurationContainers['']);
+            ->addChild('animationDuration',     $this->animDurationContainers[''])
+            ->addChild('effectFactor',          $this->effectFactorContainers[''])
+            ->addChild('effectDuration',        $this->effectDurationContainers['']);
         $xml->addGroup('cLayout')
             ->addChild('animationDelay',        $this->animDelayContainers[''])
             ->addChild('animationDuration',     $this->animDurationContainers[''])
