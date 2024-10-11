@@ -1,4 +1,4 @@
-window.useCtmEffects = (inViewOffset  = "-15% 0% -50px 0%") => {
+window.useCtmEffects = (inViewOffset  = "-15% 0% 75px 0%") => {
     initEffectsBundle({
         inView : { // inView
             offset: inViewOffset
@@ -245,6 +245,9 @@ const initEffectsBundle = (opts) => {
 
         if (!val)
             return
+
+        // Set properties into article_inside
+        item = item.classList.contains('mod_article') ? item.firstElementChild : item
 
         switch (property)
         {
